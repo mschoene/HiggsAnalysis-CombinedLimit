@@ -26,8 +26,8 @@ for m in models:
 
 print "model =", model
 
-xsfile = "SUSYCrossSections13TeVgluglu.root" if "T1" in model else "SUSYCrossSections13TeVstopstop.root" if model=="T2tt" or model=="T2bb" or model=="T2bH" or model=="T2cc" else "SUSYCrossSections13TeVsquarkantisquark.root" if model=="T2qq" else "SUSYCrossSections13TeVC1N1_wino.root" if model=="WH" else "theXSfile.root"
-f_xs = ROOT.TFile("/shome/mschoene/SUSxsecs/"+xsfile)
+xsfile = "SUSYCrossSections13TeVgluglu_2019Feb08.root" if "T1" in model else "SUSYCrossSections13TeVstopstop_2019Feb08.root" if model=="T2tt" or model=="T2bb" or model=="T2bH" or model=="T2cc" else "SUSYCrossSections13TeVsquarkantisquark_2019Feb08.root" if model=="T2qq" else "SUSYCrossSections13TeVC1N1_wino.root" if model=="WH" else "theXSfile.root"
+f_xs = ROOT.TFile("/work/mschoene/SUSxsecs/"+xsfile)
 h_xs = f_xs.Get("xs")
 
 #limits = ["exp", "ep1s", "em1s", "ep2s", "em2s"]
@@ -37,6 +37,7 @@ limits = ["obs", "exp", "ep1s", "em1s", "ep2s", "em2s", "op1s", "om1s"]
 # coloum-limit map for txt files (n -> column n+1) 
 #fileMap = {"exp":2, "ep1s":3, "em1s":4, "ep2s":5, "em2s":6}
 fileMap = {"exp":2, "obs":3, "ep1s":4, "em1s":5, "ep2s":6, "em2s":7}
+
 
 
 
@@ -66,12 +67,17 @@ def readLimitsFromFile(INPUT, fileMap, h_lims_mu0, h_lims_xs0, h_lims_yn0):
     for line in open(INPUT, "r"):
         m1        = float(line.split()[0])
         m2        = float(line.split()[1])
-        for lim,index in fileMap.iteritems():
-            rlim[lim]  = float(line.split()[index])
- 
+
         # get xs for the given mass
         xs  = h_xs.GetBinContent(h_xs.FindBin(m1))
         exs = h_xs.GetBinError  (h_xs.FindBin(m1))
+
+        # for lim,index in fileMap.iteritems(): #in case the xsec got forgotten, scale the lim
+        #     if (model == "T2bH"):
+        #         rlim[lim]  = float(line.split()[index]) / xs #remove it again when fixed ffs
+        #     else:
+        for lim,index in fileMap.iteritems():
+            rlim[lim]  = float(line.split()[index]) 
 
         if model == "T2qq":  # mu of T2qq already normilized by 8/10 (8-fold)
             xs, exs = xs*0.8, exs*0.8
@@ -134,7 +140,7 @@ def extractSmoothedContour(hist, nSmooth=1):
                     break
         if model=="T2cc": # for T2cc do it also  bottom-up
             # after smoothing a limit from mu, we need to modify the zeros outside the diagonal, otherwise the contours come wrong for the diagonal 
-#            interpolateDiagonal(hist)
+           # interpolateDiagonal(hist)
             for ix in range(1, shist.GetNbinsX()):
                 for iy in range(0,shist.GetNbinsY()):
                     if shist.GetBinContent(ix,iy)==0:
@@ -192,7 +198,7 @@ def extractSmoothedContour(hist, nSmooth=1):
     del list
     if len(graph)==1: graph.append(graph[0])
 
-    print graph[0]
+#    print graph[0]
 
     return [graph[0][1], graph[1][1]]  # return list of two largest graphs
 
@@ -251,14 +257,14 @@ h_lims_yn   = {} # limits in excluded/non-exluded, interpolated
 h_lims_xs   = {} # limits in cross-section, interpolated
 g2_lims_mu  = {} # TGraph2D limits in signal-strength, automatic interpolation
 
-m1min, m1max = 0, 2300
-m2min, m2max = 0, 2300
+m1min, m1max = -1, 2300
+m2min, m2max = -1, 2300
 #xbinSize = 1
-xbinSize = 5
+xbinSize = 1
 #xbinSize = 25
 #xbinSize = 25 if model!='T2cc' else 5
 #ybinSize = 1
-ybinSize = 5
+ybinSize = 1
 #ybinSize = 25 if model!='T2cc' else 5
 
 mass1 = "mGlu" if "T1" in model else "mSq" if model=="T2qq" else "mSb" if model=="T2bb" else "mSb" if model=="T2bH" else "mSt" if model=="T2tt" else "mChi2" if model=="WH" else "m1"
@@ -300,17 +306,21 @@ for lim in limits:
     g2_lims_mu[lim].SetNpx( int((g2_lims_mu[lim].GetXmax()-g2_lims_mu[lim].GetXmin())/xbinSize_inter) )
     g2_lims_mu[lim].SetNpy( int((g2_lims_mu[lim].GetYmax()-g2_lims_mu[lim].GetYmin())/ybinSize_inter) )
     h_lims_mu[lim] = g2_lims_mu[lim].GetHistogram()
+
+
     h_lims_mu[lim].SetName( h_lims_mu0[lim].GetName().replace("mu0","mu") )
-             
+
     #remove negative or nan bins that appear in T2qq for no apparent reason
     for ix in range(1,h_lims_mu[lim].GetNbinsX()+1):
         for iy in range(1,h_lims_mu[lim].GetNbinsY()+1):
             if h_lims_mu[lim].GetBinContent(ix,iy) < 0: #if negative set to zero
+#                print h_lims_mu[lim].GetBinContent(ix,iy)  
                 h_lims_mu[lim].SetBinContent(ix,iy,0)
             if isnan(h_lims_mu[lim].GetBinContent(ix,iy)): #if nan set to neighbour average
                 val = (h_lims_mu[lim].GetBinContent(ix+1,iy) + h_lims_mu[lim].GetBinContent(ix-1,iy) + h_lims_mu[lim].GetBinContent(ix,iy+1) + h_lims_mu[lim].GetBinContent(ix,iy-1) )/4.0
                 h_lims_mu[lim].SetBinContent(ix,iy,val)
 
+#    print h_lims_mu[lim]
 
 
 print "translating to x-sec and yes/no limits and saving 2d histos..."
@@ -339,12 +349,14 @@ print "extracting contours and saving graphs..."
 for lim in limits:
     # get contour. choose the one with maximum number of points
     g_list = g2_lims_mu[lim].GetContourList(1.0)
+
     graphs = []
     for il in range(g_list.GetSize()):
         gr = g_list.At(il)
         n_points = gr.GetN()
         graphs.append((n_points,gr))
     graphs.sort(reverse=True)
+#    print graphs
     graphs0[lim] = graphs[0][1]
     #if model=='T2tt' and (lim=='ep2s' or lim=='ep1s'): # two unconnected contours are obtained for these two guys
     #if model=='T2tt' and (lim=='ep2s' or lim=='ep1s' or lim=='exp'): # two unconnected contours are obtained for these two guys
@@ -358,7 +370,9 @@ print "smoothing..."
 for lim in limits:
     nSmooth = 1 if model=="T2tt" else 2 if model!="T2qq" else 3
     if model!="T2tt" or not divideTopDiagonal:
+
         graphs = extractSmoothedContour(h_lims_mu[lim], nSmooth)
+
         graphs1[lim]=graphs[0]
         #if model=='T2tt' and (lim=='ep2s' or lim=='ep1s'): # two unconnected contours are obtained for these two guys
         #if model=='T2tt' and (lim=='ep2s' or lim=='ep1s' or lim=='exp'): # two unconnected contours are obtained for these two guys
@@ -383,9 +397,9 @@ if( not os.path.isdir(plotsDir) ):
     os.system("mkdir "+plotsDir)
 for lim in limits:
     ROOT.gStyle.SetNumberContours( 100 )
-    xmin = 600 if "T1" in model else 150 if model=="T2tt" or model=='T2cc' else 300 if model=="T2bb" else 200 if model=="T2bH"  else 350 if model=="T2qq" else  120 if model=="WH" else 0
-    xmax = 1200 if model=="T2tt"  or model=="T2bb" else  275 if model=="WH" else 1600 if model=="T2qq" else 800 if model=="T2bH" else 800 if model=='T2cc' else 2300 if model=="T1bbbb" else 2300
-    ymax = 700  if model=="T2tt" else 800 if model=="T2bb" else  350 if model=="WH" else 500 if model=="T2bH" or model=="T2cc" else 1200 if model=="T2qq" else 1800
+    xmin = 600 if "T1" in model else 150 if model=="T2tt" or model=='T2cc' else 300 if model=="T2bb" else 200 if model=="T2bH"  else 350 if model=="T2qq" else  100 if model=="WH" else 0
+    xmax = 1200 if model=="T2tt"  or model=="T2bb" else  400 if model=="WH" else 1600 if model=="T2qq" else 1100 if model=="T2bH" else 800 if model=='T2cc' else 2300 if model=="T1bbbb" else 2300
+    ymax = 700  if model=="T2tt" else 800 if model=="T2bb" else  400 if model=="WH" else 1000 if model=="T2bH" or model=="T2cc" else 1200 if model=="T2qq" else 1800
     h_lims_yn0[lim].GetXaxis().SetRangeUser(xmin, xmax)
     h_lims_yn0[lim].GetYaxis().SetRangeUser(0   , ymax)
     h_lims_yn0[lim].Draw("colz")
