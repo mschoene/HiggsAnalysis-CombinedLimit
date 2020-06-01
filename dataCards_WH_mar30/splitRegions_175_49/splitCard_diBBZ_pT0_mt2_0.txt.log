@@ -1,0 +1,35 @@
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Adding discrete pdfindex_diBBZ_pT0_mt2_0_13TeV
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [env_pdf_48_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_48_13TeV_exp3_f1] at boundary. 
+  [WARNING] Found [env_pdf_48_13TeV_exp3_p1] at boundary. 
+  [WARNING] Found [env_pdf_48_13TeV_exp3_p2] at boundary. 
+  [WARNING] Found [env_pdf_48_13TeV_lau1_l1] at boundary. 
+Constraints of type SimpleGaussianConstraint: 15
+WARNING: Best fit of asimov dataset is at r = 0.027997 (0.001400 times rMax), while it should be at zero
+Median for expected limits: 258.5
+Sigma  for expected limits: 131.89
+Constraints of type SimpleGaussianConstraint: 15
+Constraints of type SimpleGaussianConstraint: 15
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -0.539203 (r = 44.7429)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -0.769999 (r = 0.0826468)
+At r = 303.311764:	q_mu = 3.39551	q_A  = 4.97024	CLsb = 0.03269	CLb  = 0.65052	CLs  = 0.05025
+
+ -- Asymptotic -- 
+Observed Limit: r < 303.3118
+Expected  2.5%: r < 128.7451
+Expected 16.0%: r < 176.3895
+Expected 50.0%: r < 258.5000
+Expected 84.0%: r < 401.7245
+Expected 97.5%: r < 608.9058
+
+Done in 0.42 min (cpu), 0.43 min (real)

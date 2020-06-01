@@ -1,0 +1,40 @@
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Adding discrete pdfindex_diBBZ_pT2_mt2_30_13TeV
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [env_pdf_56_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_56_13TeV_lau1_l1] at boundary. 
+Constraints of type SimpleGaussianConstraint: 15
+Median for expected limits: 3.67188
+Sigma  for expected limits: 1.87344
+Constraints of type SimpleGaussianConstraint: 15
+Constraints of type SimpleGaussianConstraint: 15
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -0.608277 (r = 0.575657)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -1.06266 (r = 5.65414e-05)
+At r = 4.367191:	q_mu = 3.39711	q_A  = 4.75813	CLsb = 0.03266	CLb  = 0.63239	CLs  = 0.05164
+At r = 8.734382:	q_mu = 8.40760	q_A  = 10.19538	CLsb = 0.00187	CLb  = 0.61540	CLs  = 0.00304
+At r = 4.655020:	q_mu = 3.73539	q_A  = 5.13717	CLsb = 0.02664	CLb  = 0.63074	CLs  = 0.04223
+At r = 2.615338:	q_mu = 1.41240	q_A  = 2.44117	CLsb = 0.11733	CLb  = 0.64579	CLs  = 0.18168
+At r = 3.635179:	q_mu = 2.54480	q_A  = 3.78757	CLsb = 0.05533	CLb  = 0.63718	CLs  = 0.08683
+At r = 4.259885:	q_mu = 3.27127	q_A  = 4.61634	CLsb = 0.03525	CLb  = 0.63304	CLs  = 0.05569
+At r = 4.462000:	q_mu = 3.50844	q_A  = 4.88320	CLsb = 0.03053	CLb  = 0.63183	CLs  = 0.04832
+At r = 4.382582:	q_mu = 3.41517	q_A  = 4.77845	CLsb = 0.03230	CLb  = 0.63230	CLs  = 0.05108
+At r = 4.422927:	q_mu = 3.46254	q_A  = 4.83168	CLsb = 0.03139	CLb  = 0.63206	CLs  = 0.04966
+At r = 4.407028:	q_mu = 3.44387	q_A  = 4.81071	CLsb = 0.03174	CLb  = 0.63215	CLs  = 0.05021
+
+ -- Asymptotic -- 
+Observed Limit: r < 4.4070
+Expected  2.5%: r < 1.5562
+Expected 16.0%: r < 2.2752
+Expected 50.0%: r < 3.6719
+Expected 84.0%: r < 6.4528
+Expected 97.5%: r < 11.1288
+
+Done in 0.06 min (cpu), 0.06 min (real)

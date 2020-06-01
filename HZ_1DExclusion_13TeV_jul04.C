@@ -1,7 +1,7 @@
 void HZ_1DExclusion_13TeV_jul04()
 {
 //=========Macro generated from canvas: c1/
-//=========  (Thu Jul  4 14:12:42 2019) by ROOT version6.06/09
+//=========  (Tue Aug 13 10:59:42 2019) by ROOT version6.08/07
    TCanvas *c1 = new TCanvas("c1", "",0,0,800,700);
    gStyle->SetOptStat(0);
    c1->SetHighLightColor(2);
@@ -6673,7 +6673,7 @@ tex->SetNDC();
    leg->SetLineWidth(1);
    leg->SetFillColor(0);
    leg->SetFillStyle(1001);
-   TLegendEntry *entry=leg->AddEntry("","NLO+NNL theory","l");
+   TLegendEntry *entry=leg->AddEntry("","NLO+NLL theory","l");
 
    ci = TColor::GetColor("#ff0000");
    entry->SetLineColor(ci);
@@ -6722,7 +6722,7 @@ tex->SetNDC();
    entry->SetMarkerSize(1);
    entry->SetTextFont(41);
    leg->Draw();
-      tex = new TLatex(0.39,0.65,"#bf{SP Analysis}");
+      tex = new TLatex(0.39,0.65,"#bf{SP analysis}");
 tex->SetNDC();
    tex->SetTextAlign(31);
    tex->SetTextFont(42);

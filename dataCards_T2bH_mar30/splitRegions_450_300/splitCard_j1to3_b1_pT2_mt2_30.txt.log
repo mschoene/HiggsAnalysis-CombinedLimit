@@ -1,0 +1,40 @@
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Adding discrete pdfindex_j1to3_b1_pT2_mt2_30_13TeV
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [env_pdf_26_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_26_13TeV_lau1_l1] at boundary. 
+Constraints of type SimpleGaussianConstraint: 15
+Median for expected limits: 11.4062
+Sigma  for expected limits: 5.81962
+Constraints of type SimpleGaussianConstraint: 15
+Constraints of type SimpleGaussianConstraint: 15
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -1.92751 (r = 5.96714e-08)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -0.22298 (r = 0.000110631)
+At r = 2.366565:	q_mu = 2.97654	q_A  = 0.21651	CLsb = 0.00030	CLb  = 0.00151	CLs  = 0.19911
+At r = 4.733130:	q_mu = 5.95044	q_A  = 0.80848	CLsb = 0.00009	CLb  = 0.00212	CLs  = 0.04027
+At r = 2.366565:	q_mu = 2.97654	q_A  = 0.21651	CLsb = 0.00030	CLb  = 0.00151	CLs  = 0.19911
+At r = 3.549848:	q_mu = 4.46574	q_A  = 0.47091	CLsb = 0.00016	CLb  = 0.00180	CLs  = 0.08929
+At r = 4.239112:	q_mu = 5.33132	q_A  = 0.65809	CLsb = 0.00011	CLb  = 0.00199	CLs  = 0.05611
+At r = 4.475173:	q_mu = 5.62731	q_A  = 0.72832	CLsb = 0.00010	CLb  = 0.00205	CLs  = 0.04787
+At r = 4.376245:	q_mu = 5.50330	q_A  = 0.69852	CLsb = 0.00010	CLb  = 0.00202	CLs  = 0.05116
+At r = 4.423433:	q_mu = 5.56245	q_A  = 0.71267	CLsb = 0.00010	CLb  = 0.00204	CLs  = 0.04957
+At r = 4.403642:	q_mu = 5.53764	q_A  = 0.70672	CLsb = 0.00010	CLb  = 0.00203	CLs  = 0.05023
+At r = 4.413079:	q_mu = 5.54947	q_A  = 0.70955	CLsb = 0.00010	CLb  = 0.00203	CLs  = 0.04991
+
+ -- Asymptotic -- 
+Observed Limit: r < 4.4131
+Expected  2.5%: r < 5.6808
+Expected 16.0%: r < 7.8055
+Expected 50.0%: r < 11.4062
+Expected 84.0%: r < 17.2713
+Expected 97.5%: r < 25.5019
+
+Done in 0.09 min (cpu), 0.10 min (real)

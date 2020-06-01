@@ -1,0 +1,41 @@
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Adding discrete pdfindex_j1to3_b1_pT2_mt2_0_13TeV
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [env_pdf_8_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_8_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_8_13TeV_pow1_p1] at boundary. 
+Constraints of type SimpleGaussianConstraint: 14
+Median for expected limits: 41.625
+Sigma  for expected limits: 21.2376
+Constraints of type SimpleGaussianConstraint: 14
+Constraints of type SimpleGaussianConstraint: 14
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -1.98763 (r = 3.89975e-07)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -1.08719 (r = 1.26515e-05)
+At r = 16.972047:	q_mu = 3.48027	q_A  = 0.68791	CLsb = 0.00599	CLb  = 0.04615	CLs  = 0.12978
+At r = 33.944094:	q_mu = 7.97722	q_A  = 2.62104	CLsb = 0.00053	CLb  = 0.04904	CLs  = 0.01084
+At r = 16.972047:	q_mu = 3.48028	q_A  = 0.68792	CLsb = 0.00599	CLb  = 0.04615	CLs  = 0.12977
+At r = 25.458071:	q_mu = 5.61421	q_A  = 1.51098	CLsb = 0.00188	CLb  = 0.04755	CLs  = 0.03945
+At r = 22.410150:	q_mu = 4.82012	q_A  = 1.18125	CLsb = 0.00288	CLb  = 0.04706	CLs  = 0.06124
+At r = 24.144429:	q_mu = 5.26830	q_A  = 1.36421	CLsb = 0.00226	CLb  = 0.04733	CLs  = 0.04776
+At r = 23.542210:	q_mu = 5.11154	q_A  = 1.29926	CLsb = 0.00246	CLb  = 0.04724	CLs  = 0.05210
+At r = 23.890548:	q_mu = 5.20206	q_A  = 1.33664	CLsb = 0.00234	CLb  = 0.04729	CLs  = 0.04955
+At r = 23.770415:	q_mu = 5.17080	q_A  = 1.32369	CLsb = 0.00238	CLb  = 0.04727	CLs  = 0.05041
+At r = 23.840148:	q_mu = 5.18894	q_A  = 1.33119	CLsb = 0.00236	CLb  = 0.04728	CLs  = 0.04991
+
+ -- Asymptotic -- 
+Observed Limit: r < 23.8401
+Expected  2.5%: r < 21.8694
+Expected 16.0%: r < 29.5093
+Expected 50.0%: r < 41.6250
+Expected 84.0%: r < 59.3783
+Expected 97.5%: r < 81.6899
+
+Done in 0.17 min (cpu), 0.17 min (real)

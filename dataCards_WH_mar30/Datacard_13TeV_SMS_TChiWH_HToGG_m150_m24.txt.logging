@@ -1,0 +1,322 @@
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Adding discrete pdfindex_j1to3_b0_pT0_mt2_0_13TeV
+Adding discrete pdfindex_j1to3_b0_pT1_mt2_0_13TeV
+Adding discrete pdfindex_j1to3_b0_pT2_mt2_0_13TeV
+Adding discrete pdfindex_j4toInf_b0_pT0_mt2_0_13TeV
+Adding discrete pdfindex_j4toInf_b0_pT1_mt2_0_13TeV
+Adding discrete pdfindex_j4toInf_b0_pT2_mt2_0_13TeV
+Adding discrete pdfindex_j1to3_b1_pT0_mt2_0_13TeV
+Adding discrete pdfindex_j1to3_b1_pT1_mt2_0_13TeV
+Adding discrete pdfindex_j1to3_b1_pT2_mt2_0_13TeV
+Adding discrete pdfindex_j4toInf_b1_pT0_mt2_0_13TeV
+Adding discrete pdfindex_j4toInf_b1_pT1_mt2_0_13TeV
+Adding discrete pdfindex_j4toInf_b1_pT2_mt2_0_13TeV
+Adding discrete pdfindex_j1to3_b2toInf_pT0_mt2_0_13TeV
+Adding discrete pdfindex_j1to3_b2toInf_pT1_mt2_0_13TeV
+Adding discrete pdfindex_j1to3_b2toInf_pT2_mt2_0_13TeV
+Adding discrete pdfindex_j4toInf_b2toInf_pT0_mt2_0_13TeV
+Adding discrete pdfindex_j4toInf_b2toInf_pT1_mt2_0_13TeV
+Adding discrete pdfindex_j4toInf_b2toInf_pT2_mt2_0_13TeV
+Adding discrete pdfindex_j1to3_b0_pT0_mt2_30_13TeV
+Adding discrete pdfindex_j1to3_b0_pT1_mt2_30_13TeV
+Adding discrete pdfindex_j1to3_b0_pT2_mt2_30_13TeV
+Adding discrete pdfindex_j4toInf_b0_pT0_mt2_30_13TeV
+Adding discrete pdfindex_j4toInf_b0_pT1_mt2_30_13TeV
+Adding discrete pdfindex_j4toInf_b0_pT2_mt2_30_13TeV
+Adding discrete pdfindex_j1to3_b1_pT0_mt2_30_13TeV
+Adding discrete pdfindex_j1to3_b1_pT1_mt2_30_13TeV
+Adding discrete pdfindex_j1to3_b1_pT2_mt2_30_13TeV
+Adding discrete pdfindex_j4toInf_b1_pT0_mt2_30_13TeV
+Adding discrete pdfindex_j4toInf_b1_pT1_mt2_30_13TeV
+Adding discrete pdfindex_j4toInf_b1_pT2_mt2_30_13TeV
+Adding discrete pdfindex_j1to3_b2toInf_pT0_mt2_30_13TeV
+Adding discrete pdfindex_j1to3_b2toInf_pT1_mt2_30_13TeV
+Adding discrete pdfindex_j1to3_b2toInf_pT2_mt2_30_13TeV
+Adding discrete pdfindex_j4toInf_b2toInf_pT0_mt2_30_13TeV
+Adding discrete pdfindex_j4toInf_b2toInf_pT1_mt2_30_13TeV
+Adding discrete pdfindex_j4toInf_b2toInf_pT2_mt2_30_13TeV
+Adding discrete pdfindex_is1El_pT0_mt2_0_13TeV
+Adding discrete pdfindex_is1Mu_pT0_mt2_0_13TeV
+Adding discrete pdfindex_is1El_pT0_mt2_30_13TeV
+Adding discrete pdfindex_is1Mu_pT0_mt2_30_13TeV
+Adding discrete pdfindex_is1El_pT1_mt2_0_13TeV
+Adding discrete pdfindex_is1Mu_pT1_mt2_0_13TeV
+Adding discrete pdfindex_is1El_pT1_mt2_30_13TeV
+Adding discrete pdfindex_is1Mu_pT1_mt2_30_13TeV
+Adding discrete pdfindex_is1El_pT2_mt2_0_13TeV
+Adding discrete pdfindex_is1Mu_pT2_mt2_0_13TeV
+Adding discrete pdfindex_is1El_pT2_mt2_30_13TeV
+Adding discrete pdfindex_is1Mu_pT2_mt2_30_13TeV
+Adding discrete pdfindex_diBBZ_pT0_mt2_0_13TeV
+Adding discrete pdfindex_diBBZ_pT1_mt2_0_13TeV
+Adding discrete pdfindex_diBBZ_pT2_mt2_0_13TeV
+Adding discrete pdfindex_diBBH_pT0_mt2_0_13TeV
+Adding discrete pdfindex_diBBH_pT1_mt2_0_13TeV
+Adding discrete pdfindex_diBBH_pT2_mt2_0_13TeV
+Adding discrete pdfindex_diBBZ_pT0_mt2_30_13TeV
+Adding discrete pdfindex_diBBZ_pT1_mt2_30_13TeV
+Adding discrete pdfindex_diBBZ_pT2_mt2_30_13TeV
+Adding discrete pdfindex_diBBH_pT0_mt2_30_13TeV
+Adding discrete pdfindex_diBBH_pT1_mt2_30_13TeV
+Adding discrete pdfindex_diBBH_pT2_mt2_30_13TeV
+Adding discrete pdfindex_diLepZ_13TeV
+Adding discrete pdfindex_j0_b0toInf_pT0_13TeV
+Adding discrete pdfindex_j0_b0toInf_pT1_13TeV
+Adding discrete pdfindex_j0_b0toInf_pT2_13TeV
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [env_pdf_0_13TeV_exp3_f1] at boundary. 
+  [WARNING] Found [env_pdf_0_13TeV_exp3_p1] at boundary. 
+  [WARNING] Found [env_pdf_0_13TeV_exp3_p2] at boundary. 
+  [WARNING] Found [env_pdf_0_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_1_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_1_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_1_13TeV_pow1_p1] at boundary. 
+  [WARNING] Found [env_pdf_2_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_2_13TeV_exp3_f1] at boundary. 
+  [WARNING] Found [env_pdf_2_13TeV_exp3_p1] at boundary. 
+  [WARNING] Found [env_pdf_2_13TeV_exp3_p2] at boundary. 
+  [WARNING] Found [env_pdf_2_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_3_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_3_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_3_13TeV_lau2_h1] at boundary. 
+  [WARNING] Found [env_pdf_3_13TeV_lau2_l1] at boundary. 
+  [WARNING] Found [env_pdf_4_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_4_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_4_13TeV_lau2_h1] at boundary. 
+  [WARNING] Found [env_pdf_4_13TeV_lau2_l1] at boundary. 
+  [WARNING] Found [env_pdf_4_13TeV_pow1_p1] at boundary. 
+  [WARNING] Found [env_pdf_5_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_5_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_6_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_7_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_7_13TeV_exp3_f1] at boundary. 
+  [WARNING] Found [env_pdf_7_13TeV_exp3_p1] at boundary. 
+  [WARNING] Found [env_pdf_7_13TeV_exp3_p2] at boundary. 
+  [WARNING] Found [env_pdf_7_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_8_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_8_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_8_13TeV_pow1_p1] at boundary. 
+  [WARNING] Found [env_pdf_9_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_9_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_10_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_10_13TeV_lau2_h1] at boundary. 
+  [WARNING] Found [env_pdf_10_13TeV_lau2_l1] at boundary. 
+  [WARNING] Found [env_pdf_11_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_11_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_12_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_12_13TeV_exp3_f1] at boundary. 
+  [WARNING] Found [env_pdf_12_13TeV_exp3_p1] at boundary. 
+  [WARNING] Found [env_pdf_12_13TeV_exp3_p2] at boundary. 
+  [WARNING] Found [env_pdf_13_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_14_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_14_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_15_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_15_13TeV_exp3_p1] at boundary. 
+  [WARNING] Found [env_pdf_15_13TeV_exp3_p2] at boundary. 
+  [WARNING] Found [env_pdf_15_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_15_13TeV_lau2_h1] at boundary. 
+  [WARNING] Found [env_pdf_15_13TeV_lau2_l1] at boundary. 
+  [WARNING] Found [env_pdf_16_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_16_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_17_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_17_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_18_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_18_13TeV_exp3_f1] at boundary. 
+  [WARNING] Found [env_pdf_18_13TeV_exp3_p1] at boundary. 
+  [WARNING] Found [env_pdf_18_13TeV_exp3_p2] at boundary. 
+  [WARNING] Found [env_pdf_18_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_19_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_19_13TeV_exp3_f1] at boundary. 
+  [WARNING] Found [env_pdf_19_13TeV_exp3_p1] at boundary. 
+  [WARNING] Found [env_pdf_19_13TeV_exp3_p2] at boundary. 
+  [WARNING] Found [env_pdf_19_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_20_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_20_13TeV_pow1_p1] at boundary. 
+  [WARNING] Found [env_pdf_21_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_21_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_22_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_23_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_23_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_24_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_25_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_25_13TeV_exp3_f1] at boundary. 
+  [WARNING] Found [env_pdf_25_13TeV_exp3_p1] at boundary. 
+  [WARNING] Found [env_pdf_25_13TeV_exp3_p2] at boundary. 
+  [WARNING] Found [env_pdf_25_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_26_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_26_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_27_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_27_13TeV_lau2_h1] at boundary. 
+  [WARNING] Found [env_pdf_27_13TeV_lau2_l1] at boundary. 
+  [WARNING] Found [env_pdf_28_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_28_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_28_13TeV_lau2_h1] at boundary. 
+  [WARNING] Found [env_pdf_28_13TeV_lau2_l1] at boundary. 
+  [WARNING] Found [env_pdf_29_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_29_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_30_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_30_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_31_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_31_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_32_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_32_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_33_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_34_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_34_13TeV_exp3_p2] at boundary. 
+  [WARNING] Found [env_pdf_34_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_34_13TeV_lau2_h1] at boundary. 
+  [WARNING] Found [env_pdf_34_13TeV_lau2_l1] at boundary. 
+  [WARNING] Found [env_pdf_34_13TeV_pow1_p1] at boundary. 
+  [WARNING] Found [env_pdf_35_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_35_13TeV_pow1_p1] at boundary. 
+  [WARNING] Found [env_pdf_36_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_37_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_37_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_38_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_38_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_38_13TeV_lau2_h1] at boundary. 
+  [WARNING] Found [env_pdf_38_13TeV_lau2_l1] at boundary. 
+  [WARNING] Found [env_pdf_38_13TeV_pow1_p1] at boundary. 
+  [WARNING] Found [env_pdf_39_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_40_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_40_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_41_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_41_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_41_13TeV_lau2_h1] at boundary. 
+  [WARNING] Found [env_pdf_41_13TeV_lau2_l1] at boundary. 
+  [WARNING] Found [env_pdf_41_13TeV_pow1_p1] at boundary. 
+  [WARNING] Found [env_pdf_42_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_42_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_42_13TeV_pow1_p1] at boundary. 
+  [WARNING] Found [env_pdf_43_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_44_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_44_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_45_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_45_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_46_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_46_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_47_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_48_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_48_13TeV_exp3_f1] at boundary. 
+  [WARNING] Found [env_pdf_48_13TeV_exp3_p1] at boundary. 
+  [WARNING] Found [env_pdf_48_13TeV_exp3_p2] at boundary. 
+  [WARNING] Found [env_pdf_48_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_49_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_49_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_49_13TeV_pow1_p1] at boundary. 
+  [WARNING] Found [env_pdf_50_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_50_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_51_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_51_13TeV_exp3_f1] at boundary. 
+  [WARNING] Found [env_pdf_51_13TeV_exp3_p1] at boundary. 
+  [WARNING] Found [env_pdf_51_13TeV_exp3_p2] at boundary. 
+  [WARNING] Found [env_pdf_52_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_52_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_53_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_53_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_54_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_55_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_55_13TeV_pow1_p1] at boundary. 
+  [WARNING] Found [env_pdf_56_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_56_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_57_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_57_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_57_13TeV_lau2_h1] at boundary. 
+  [WARNING] Found [env_pdf_57_13TeV_lau2_l1] at boundary. 
+  [WARNING] Found [env_pdf_58_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_59_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_60_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_60_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_60_13TeV_pow1_p1] at boundary. 
+  [WARNING] Found [env_pdf_61_13TeV_exp3_p1] at boundary. 
+  [WARNING] Found [env_pdf_61_13TeV_exp3_p2] at boundary. 
+  [WARNING] Found [env_pdf_61_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_61_13TeV_pow1_p1] at boundary. 
+  [WARNING] Found [env_pdf_62_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_62_13TeV_exp3_p1] at boundary. 
+  [WARNING] Found [env_pdf_62_13TeV_exp3_p2] at boundary. 
+  [WARNING] Found [env_pdf_62_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_62_13TeV_pow1_p1] at boundary. 
+  [WARNING] Found [env_pdf_63_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_63_13TeV_exp3_f1] at boundary. 
+  [WARNING] Found [env_pdf_63_13TeV_exp3_p1] at boundary. 
+  [WARNING] Found [env_pdf_63_13TeV_exp3_p2] at boundary. 
+  [WARNING] Found [env_pdf_63_13TeV_lau1_l1] at boundary. 
+[#0] ERROR:Eval -- RooAbsReal::logEvalError(hggpdfsmrel_13TeV_SMS_TChiWH_HToGG_m150_m24_2017_j1to3_b1_pT2_mt2_30_rv_13TeV) evaluation error, 
+ origin       : RooAddPdf::hggpdfsmrel_13TeV_SMS_TChiWH_HToGG_m150_m24_2017_j1to3_b1_pT2_mt2_30_rv_13TeV[ frac_g0_SMS_TChiWH_HToGG_m150_m24_2017_j1to3_b1_pT2_mt2_30_rv_13TeV * gaus_g0_SMS_TChiWH_HToGG_m150_m24_2017_j1to3_b1_pT2_mt2_30_rv_13TeV + hggpdfsmrel_13TeV_SMS_TChiWH_HToGG_m150_m24_2017_j1to3_b1_pT2_mt2_30_rv_13TeV_recursive_fraction_gaus_g1_SMS_TChiWH_HToGG_m150_m24_2017_j1to3_b1_pT2_mt2_30_rv_13TeV * gaus_g1_SMS_TChiWH_HToGG_m150_m24_2017_j1to3_b1_pT2_mt2_30_rv_13TeV + hggpdfsmrel_13TeV_SMS_TChiWH_HToGG_m150_m24_2017_j1to3_b1_pT2_mt2_30_rv_13TeV_recursive_fraction_gaus_g2_SMS_TChiWH_HToGG_m150_m24_2017_j1to3_b1_pT2_mt2_30_rv_13TeV * gaus_g2_SMS_TChiWH_HToGG_m150_m24_2017_j1to3_b1_pT2_mt2_30_rv_13TeV + hggpdfsmrel_13TeV_SMS_TChiWH_HToGG_m150_m24_2017_j1to3_b1_pT2_mt2_30_rv_13TeV_recursive_fraction_gaus_g3_SMS_TChiWH_HToGG_m150_m24_2017_j1to3_b1_pT2_mt2_30_rv_13TeV * gaus_g3_SMS_TChiWH_HToGG_m150_m24_2017_j1to3_b1_pT2_mt2_30_rv_13TeV ]
+ message      : p.d.f value is less than zero (-0.000000), forcing value to zero
+ server values: !refCoefNorm=(), !pdfs=(gaus_g0_SMS_TChiWH_HToGG_m150_m24_2017_j1to3_b1_pT2_mt2_30_rv_13TeV = 3.09961e-12/19.9567,gaus_g1_SMS_TChiWH_HToGG_m150_m24_2017_j1to3_b1_pT2_mt2_30_rv_13TeV = 9.83045e-196/4.57795,gaus_g2_SMS_TChiWH_HToGG_m150_m24_2017_j1to3_b1_pT2_mt2_30_rv_13TeV = 3.039e-10/19.6711,gaus_g3_SMS_TChiWH_HToGG_m150_m24_2017_j1to3_b1_pT2_mt2_30_rv_13TeV = 5.78532e-82/7.06779), !coefficients=(frac_g0_SMS_TChiWH_HToGG_m150_m24_2017_j1to3_b1_pT2_mt2_30_rv_13TeV = 0.0684193,hggpdfsmrel_13TeV_SMS_TChiWH_HToGG_m150_m24_2017_j1to3_b1_pT2_mt2_30_rv_13TeV_recursive_fraction_gaus_g1_SMS_TChiWH_HToGG_m150_m24_2017_j1to3_b1_pT2_mt2_30_rv_13TeV = 0.93518,hggpdfsmrel_13TeV_SMS_TChiWH_HToGG_m150_m24_2017_j1to3_b1_pT2_mt2_30_rv_13TeV_recursive_fraction_gaus_g2_SMS_TChiWH_HToGG_m150_m24_2017_j1to3_b1_pT2_mt2_30_rv_13TeV = -0.00159427,hggpdfsmrel_13TeV_SMS_TChiWH_HToGG_m150_m24_2017_j1to3_b1_pT2_mt2_30_rv_13TeV_recursive_fraction_gaus_g3_SMS_TChiWH_HToGG_m150_m24_2017_j1to3_b1_pT2_mt2_30_rv_13TeV = -0.00200525)
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=168.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=168.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=168.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=168.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=169.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=169.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=169.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=169.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=170.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=170.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=170.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=170.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=171.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=171.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=171.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=171.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=172.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=172.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=172.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=172.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=173.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=173.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=173.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=173.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=174.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=174.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=174.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=174.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=175.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=175.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=175.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=175.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=176.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=176.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=176.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=176.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=177.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=177.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=177.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=177.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=178.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=178.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=178.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=178.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=179.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=179.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=179.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=179.875
+Constraints of type SimpleGaussianConstraint: 15
+Median for expected limits: 0.533203
+Sigma  for expected limits: 0.272047
+Constraints of type SimpleGaussianConstraint: 15
+Constraints of type SimpleGaussianConstraint: 15
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -46.342 (r = 2.43738e-11)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -48.5907 (r = 1.08292e-06)
+At r = 0.436389:	q_mu = 4.43665	q_A  = 2.72488	CLsb = 0.01503	CLb  = 0.30206	CLs  = 0.04977
+
+ -- Asymptotic -- 
+Observed Limit: r < 0.4364
+Expected  2.5%: r < 0.2593
+Expected 16.0%: r < 0.3631
+Expected 50.0%: r < 0.5332
+Expected 84.0%: r < 0.7904
+Expected 97.5%: r < 1.1247
+
+Done in 711.86 min (cpu), 712.82 min (real)

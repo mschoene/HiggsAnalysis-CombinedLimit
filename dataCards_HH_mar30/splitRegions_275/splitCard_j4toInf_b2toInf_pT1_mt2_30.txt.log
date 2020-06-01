@@ -1,0 +1,43 @@
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Adding discrete pdfindex_j4toInf_b2toInf_pT1_mt2_30_13TeV
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [env_pdf_34_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_34_13TeV_exp3_p2] at boundary. 
+  [WARNING] Found [env_pdf_34_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_34_13TeV_lau2_h1] at boundary. 
+  [WARNING] Found [env_pdf_34_13TeV_lau2_l1] at boundary. 
+  [WARNING] Found [env_pdf_34_13TeV_pow1_p1] at boundary. 
+Constraints of type SimpleGaussianConstraint: 14
+WARNING: Best fit of asimov dataset is at r = 0.032228 (0.001611 times rMax), while it should be at zero
+Median for expected limits: 145.938
+Sigma  for expected limits: 74.4593
+Constraints of type SimpleGaussianConstraint: 14
+Constraints of type SimpleGaussianConstraint: 14
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -0.300797 (r = 73.965)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -0.346763 (r = 0.0548316)
+At r = 259.698730:	q_mu = 3.91994	q_A  = 8.62877	CLsb = 0.02386	CLb  = 0.83087	CLs  = 0.02872
+At r = 166.831873:	q_mu = 1.29269	q_A  = 4.68027	CLsb = 0.12778	CLb  = 0.84766	CLs  = 0.15074
+At r = 213.265302:	q_mu = 2.51176	q_A  = 6.62267	CLsb = 0.05650	CLb  = 0.83857	CLs  = 0.06738
+At r = 235.543084:	q_mu = 3.16890	q_A  = 7.57989	CLsb = 0.03753	CLb  = 0.83473	CLs  = 0.04496
+At r = 226.403954:	q_mu = 2.89473	q_A  = 7.18579	CLsb = 0.04443	CLb  = 0.83627	CLs  = 0.05313
+At r = 230.891788:	q_mu = 3.02861	q_A  = 7.37909	CLsb = 0.04090	CLb  = 0.83551	CLs  = 0.04896
+At r = 229.070066:	q_mu = 2.97408	q_A  = 7.30057	CLsb = 0.04230	CLb  = 0.83582	CLs  = 0.05061
+At r = 229.968875:	q_mu = 3.00096	q_A  = 7.33930	CLsb = 0.04161	CLb  = 0.83566	CLs  = 0.04979
+
+ -- Asymptotic -- 
+Observed Limit: r < 229.9689
+Expected  2.5%: r < 68.1232
+Expected 16.0%: r < 96.0877
+Expected 50.0%: r < 145.9375
+Expected 84.0%: r < 231.4493
+Expected 97.5%: r < 362.4938
+
+Done in 0.19 min (cpu), 0.19 min (real)

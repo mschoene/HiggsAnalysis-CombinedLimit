@@ -259,11 +259,11 @@ def main():
 
     if model=="HH":
         ppSqSq = "pp #rightarrow #tilde{#chi}^{0,#pm}_{i} #tilde{#chi}^{0,#pm}_{j} #rightarrow  #tilde{#chi}^{0}_{1} #tilde{#chi}^{0}_{1} + X_{soft}; #tilde{#chi}^{0}_{1} #rightarrow H #tilde{G} (100%)"
-        branching="m_{#tilde{#chi}^{0}_{2}} #approx m_{#tilde{#chi}^{#pm}_{1}} #approx m_{#tilde{#chi}^{0}_{1}};  m_{#tilde{G}} = 1 GeV"
+        branching="m_{#tilde{G}} = 1 GeV;  m_{#tilde{#chi}^{0}_{2}} #approx m_{#tilde{#chi}^{#pm}_{1}} #approx m_{#tilde{#chi}^{0}_{1}}"
     elif model=="HZ":
         ppSqSq =  "pp #rightarrow #tilde{#chi}^{0,#pm}_{i} #tilde{#chi}^{0,#pm}_{j} #rightarrow  #tilde{#chi}^{0}_{1} #tilde{#chi}^{0}_{1} + X_{soft}; #tilde{#chi}^{0}_{1} #rightarrow H #tilde{G} (50%)"
         branching="#tilde{#chi}^{0}_{1} #rightarrow Z #tilde{G} (50%)"
-        lightSq="m_{#tilde{#chi}^{0}_{2}} #approx m_{#tilde{#chi}^{#pm}_{1}} #approx m_{#tilde{#chi}^{0}_{1}};  m_{#tilde{G}} = 1 GeV"
+        lightSq="m_{#tilde{G}} = 1 GeV;  m_{#tilde{#chi}^{0}_{2}} #approx m_{#tilde{#chi}^{#pm}_{1}} #approx m_{#tilde{#chi}^{0}_{1}}"
 
 
     # if model=="HH":
@@ -295,7 +295,7 @@ def main():
     c1.cd()
     padt = ROOT.TPad("p_tex", "p_tex", 0.0, 0.0, 1.0, 1.0)
     padt.SetTopMargin(0.07)
-    padt.SetBottomMargin(0.12)
+    padt.SetBottomMargin(0.14)
     padt.SetRightMargin(0.05)
     padt.SetLeftMargin(0.12)
 
@@ -326,6 +326,7 @@ def main():
     if model=="HZ":
         plotYmin = 0.1
 
+    ROOT.gStyle.SetLabelSize(.05, "XY");
 
     h = ROOT.TH2F("h","h", nbins, 125, 450, 1000,plotYmin,1000)
 #    h = ROOT.TH2F("h","h", nbins, 125, 400, 1000,0,10)
@@ -336,7 +337,7 @@ def main():
 #    h.GetYaxis().SetTitle("95% CL upper limit on cross section [pb]")
 #    h.GetYaxis().SetTitle("#sigma  [pb]")
     h.GetYaxis().SetTitle("#sigma^{95%}_{excl} [pb]")
-    h.GetYaxis().CenterTitle(True)
+    #h.GetYaxis().CenterTitle(True)
 
 #    h.GetXaxis().SetLabelOffset(0.003)
 
@@ -347,11 +348,18 @@ def main():
 #    h.GetYaxis().SetLabelSize(0.035)
     h.GetXaxis().SetTitleSize(0.05)
     h.GetYaxis().SetTitleSize(0.05)
-    h.GetXaxis().SetTitleOffset(0.95)
-    h.GetYaxis().SetTitleOffset(0.8)
+ #   h.GetXaxis().SetTitleOffset(0.95)
 
-    h.GetXaxis().SetLabelOffset(0.003)
-#    h.GetYaxis().SetLabelOffset(0.8)
+    h.GetXaxis().SetTitleSize(0.05);
+    h.GetXaxis().SetLabelOffset( 0.003);
+    h.GetYaxis().SetLabelOffset( 0.003);
+    h.GetXaxis().SetTitleOffset( 1.2);
+    h.GetYaxis().SetTitleOffset( 0.99);
+
+#    h.GetYaxis().SetTitleOffset(0.8)
+#    h.GetXaxis().SetLabelOffset(0.003)
+#    h.GetYaxis().SetLabelOffset(0.003)
+#    h.GetYaxis().SetTitleOffset(0.99)
 
     # h.GetXaxis().SetNdivisions(509)
     # h.GetXaxis().SetLabelSize(0.04)
@@ -405,88 +413,6 @@ def main():
     g_xsec_slqD.SetLineWidth(2)
     g_xsec_slqD.Draw("L same")
 
-#     g_xsec_vlq.SetFillColor(ROOT.kRed)
-#     g_xsec_vlq.SetLineColor(ROOT.kRed)
-#     g_xsec_vlq.SetLineWidth(2)
-#     g_xsec_vlq.Draw("L same")
-
-#     g_xsec_vlqU.SetFillColor(ROOT.kRed)
-#     g_xsec_vlqU.SetLineColor(ROOT.kRed)
-#     g_xsec_vlqU.SetLineStyle(2)
-#     g_xsec_vlqU.SetLineWidth(2)
-#     g_xsec_vlqU.Draw("L same")
-
-#     g_xsec_vlqD.SetFillColor(ROOT.kRed)
-#     g_xsec_vlqD.SetLineColor(ROOT.kRed)
-#     g_xsec_vlqD.SetLineStyle(2)
-#     g_xsec_vlqD.SetLineWidth(2)
-#     g_xsec_vlqD.Draw("L same")
-
-#     if model!="T2tt":
-#         g_xseck0_vlq.SetFillColor(ROOT.kCyan+1)
-#         g_xseck0_vlq.SetLineColor(ROOT.kCyan+1)
-#         g_xseck0_vlq.SetLineWidth(2)
-#         g_xseck0_vlq.Draw("L same")
-        
-#         g_xseck0_vlqU.SetFillColor(ROOT.kCyan+1)
-#         g_xseck0_vlqU.SetLineColor(ROOT.kCyan+1)
-#         g_xseck0_vlqU.SetLineStyle(2)
-#         g_xseck0_vlqU.SetLineWidth(2)
-#         g_xseck0_vlqU.Draw("L same")
-        
-#         g_xseck0_vlqD.SetFillColor(ROOT.kCyan+1)
-#         g_xseck0_vlqD.SetLineColor(ROOT.kCyan+1)
-#         g_xseck0_vlqD.SetLineStyle(2)
-#         g_xseck0_vlqD.SetLineWidth(2)
-#         g_xseck0_vlqD.Draw("L same")
-
-
-
-#     if model=="T2tt":
-#         g_xsec0p25_vlq.SetFillColor(ROOT.kMagenta-7)
-#         g_xsec0p25_vlq.SetLineColor(ROOT.kMagenta-7)
-#         g_xsec0p25_vlq.SetLineWidth(2)
-#         g_xsec0p25_vlq.Draw("L same")
-#         g_xsec0p25_vlqU.SetFillColor(ROOT.kMagenta-7)
-#         g_xsec0p25_vlqU.SetLineColor(ROOT.kMagenta-7)
-#         g_xsec0p25_vlqU.SetLineStyle(2)
-#         g_xsec0p25_vlqU.SetLineWidth(2)
-#         g_xsec0p25_vlqU.Draw("L same")
-#         g_xsec0p25_vlqD.SetFillColor(ROOT.kMagenta-7)
-#         g_xsec0p25_vlqD.SetLineColor(ROOT.kMagenta-7)
-#         g_xsec0p25_vlqD.SetLineStyle(2)
-#         g_xsec0p25_vlqD.SetLineWidth(2)
-#         g_xsec0p25_vlqD.Draw("L same")
-
-#         g_xseck0_vlq.SetFillColor(ROOT.kCyan+1)
-#         g_xseck0_vlq.SetLineColor(ROOT.kCyan+1)
-#         g_xseck0_vlq.SetLineWidth(2)
-#         g_xseck0_vlq.Draw("L same")        
-#         g_xseck0_vlqU.SetFillColor(ROOT.kCyan+1)
-#         g_xseck0_vlqU.SetLineColor(ROOT.kCyan+1)
-#         g_xseck0_vlqU.SetLineStyle(2)
-#         g_xseck0_vlqU.SetLineWidth(2)
-#         g_xseck0_vlqU.Draw("L same")        
-#         g_xseck0_vlqD.SetFillColor(ROOT.kCyan+1)
-#         g_xseck0_vlqD.SetLineColor(ROOT.kCyan+1)
-#         g_xseck0_vlqD.SetLineStyle(2)
-#         g_xseck0_vlqD.SetLineWidth(2)
-#         g_xseck0_vlqD.Draw("L same")
-
-# #        g_xseck0_0p25_vlq.SetFillColor(ROOT.kCyan+1)
-# #        g_xseck0_0p25_vlq.SetLineColor(ROOT.kCyan+1)
-# #        g_xseck0_0p25_vlq.SetLineWidth(2)
-# #        g_xseck0_0p25_vlq.Draw("L same")
-# #        g_xseck0_0p25_vlqU.SetFillColor(ROOT.kCyan+1)
-# #        g_xseck0_0p25_vlqU.SetLineColor(ROOT.kCyan+1)
-# #        g_xseck0_0p25_vlqU.SetLineStyle(2)
-# #        g_xseck0_0p25_vlqU.SetLineWidth(2)
-# #        g_xseck0_0p25_vlqU.Draw("L same")
-# #        g_xseck0_0p25_vlqD.SetFillColor(ROOT.kCyan+1)
-# #        g_xseck0_0p25_vlqD.SetLineColor(ROOT.kCyan+1)
-# #        g_xseck0_0p25_vlqD.SetLineStyle(2)
-# #        g_xseck0_0p25_vlqD.SetLineWidth(2)
-# #        g_xseck0_0p25_vlqD.Draw("L same")
 
     g_xsec_slq.SetFillColor(ROOT.kRed)
     g_xsec_slq.SetLineColor(ROOT.kRed)
@@ -515,35 +441,34 @@ def main():
     gobs.Draw("L")
    
 #    prctex = ROOT.TLatex(0.21,0.83, ppSqSq );
-    prctex = ROOT.TLatex(0.29,0.88, ppSqSq );
+    prctex = ROOT.TLatex(0.15,0.87, ppSqSq );
     prctex.SetNDC()    
-    prctex.SetTextSize(0.038)    
+    prctex.SetTextSize(0.048)    
     prctex.SetLineWidth(2)
     prctex.SetTextFont(42)    
     prctex.Draw()
 
 #    prctex2 = ROOT.TLatex(0.21,0.78, branching );    
 
-    cmsxlabel = 0.29+0.263
-    cmsylabel = 0.88-0.07
+    cmsxlabel = 0.29+0.263 -0.10
+    cmsylabel = 0.88-0.07-0.02
 
     if model=="HZ":
-        cmsxlabel = 0.29+0.415
-        cmsylabel = 0.88-0.07
-    
+        cmsxlabel = 0.29+0.415- 0.05
+        cmsylabel = 0.88-0.07-0.02       
 
     prctex2 = ROOT.TLatex(cmsxlabel,cmsylabel, branching );    
     prctex2.SetNDC()    
-    prctex2.SetTextSize(0.038)    
+    prctex2.SetTextSize(0.048)    
     prctex2.SetLineWidth(2)
     prctex2.SetTextFont(42)    
     prctex2.Draw()
 
     if model=="HZ":
 #        prctex3 = ROOT.TLatex(0.21,0.73, lightSq );
-        prctex3 = ROOT.TLatex(0.29+0.25,0.88-0.13, lightSq );
+        prctex3 = ROOT.TLatex(0.29+0.25-0.1,0.87-0.13-0.01, lightSq );
         prctex3.SetNDC()    
-        prctex3.SetTextSize(0.038)    
+        prctex3.SetTextSize(0.048)    
         prctex3.SetLineWidth(2)
         prctex3.SetTextFont(42)    
         prctex3.Draw()
@@ -586,7 +511,7 @@ def main():
     e = 0.025
 
 #    writeAnalysisText = True
-    analysisText   = "#bf{SP Analysis}"
+    analysisText   = "#bf{SP analysis}"
 #    analysisText   = "#bf{STP Analysis}"
     analysisTextFont = 42 
     lumiTextSize     = 0.6
@@ -594,7 +519,8 @@ def main():
     
 #    l1 = ROOT.TLegend(0.51, 0.48-0.09, 0.78, 0.87)
 #    l1 = ROOT.TLegend(0.51, 0.48-0.09, 0.78, 0.8)
-    l1 = ROOT.TLegend(0.51, 0.75-5*0.065, 0.85, 0.75-0.05)
+    l1 = ROOT.TLegend(0.51, 0.75-5*0.065-0.02+0.01, 0.85, 0.75-0.05-0.02)
+#TLegend* leg = new TLegend( 0.51, 0.75-5*0.065-0.02, 0.85, 0.75-0.05-0.02, NULL, "brNDC" );
     l1.SetFillStyle(1001) 
     l1.SetLineColor(1)
     l1.SetBorderSize(0)
@@ -605,7 +531,7 @@ def main():
     l1.SetShadowColor(ROOT.kWhite)
     l1.SetFillColor(ROOT.kWhite)
 
-    theoryText = "NLO+NNL theory"
+    theoryText = "NLO+NLL theory"
 
     l1.AddEntry(g_xsec_slq , theoryText,"l")
 #    l1.AddEntry(g_xsec_slq , " #sigma_{theory, NLO} ","l")
@@ -629,12 +555,12 @@ def main():
     l1.Draw()
 
 
-    latex0 = ROOT.TLatex(0.39,1-5*0.07,    analysisText)
+    latex0 = ROOT.TLatex(0.42,1-5*0.07,    analysisText)
     latex0.SetNDC()
 #    latex0.SetTextColor(ROOT.kBlack)    
     latex0.SetTextFont(42)
     latex0.SetTextAlign(31) 
-    latex0.SetTextSize( 0.6*0.07*0.9)
+    latex0.SetTextSize( 0.05)
     #latex0.DrawLatex(1-3.1*r,1-5*t,analysisText)
     latex0.Draw()
 
@@ -807,25 +733,27 @@ def main():
     elif model=="T2qq":
         c1.SaveAs("T2qq_1DExclusion_13TeV_NNPDF_fullrange_fV_k.pdf")
     elif model=="HH":
-        c1.SaveAs("HH_1DExclusion_13TeV_jul04.pdf")
-        c1.SaveAs("HH_1DExclusion_13TeV_jul04.png")
-        c1.SaveAs("HH_1DExclusion_13TeV_jul04.C")
+        c1.SaveAs("HH_1DExclusion_13TeV_aug13.pdf")
+        c1.SaveAs("HH_1DExclusion_13TeV_aug13.png")
+        c1.SaveAs("HH_1DExclusion_13TeV_aug13.C")
+        c1.SaveAs("HH_1DExclusion_13TeV_aug13.root")
     elif model=="HZ":
-        c1.SaveAs("HZ_1DExclusion_13TeV_jul04.pdf")
-        c1.SaveAs("HZ_1DExclusion_13TeV_jul04.png")
-        c1.SaveAs("HZ_1DExclusion_13TeV_jul04.C")
+        c1.SaveAs("HZ_1DExclusion_13TeV_aug13.pdf")
+        c1.SaveAs("HZ_1DExclusion_13TeV_aug13.png")
+        c1.SaveAs("HZ_1DExclusion_13TeV_aug13.C")
+        c1.SaveAs("HZ_1DExclusion_13TeV_aug13.root")
 
 
     cmstexprel.Draw()
 
     if model=="HH":
-        c1.SaveAs("HH_1DExclusion_13TeV_jul04_preliminary.pdf")
-        c1.SaveAs("HH_1DExclusion_13TeV_jul04_preliminary.png")
-        c1.SaveAs("HH_1DExclusion_13TeV_jul04_preliminary.C")
+        c1.SaveAs("HH_1DExclusion_13TeV_aug13_preliminary.pdf")
+        c1.SaveAs("HH_1DExclusion_13TeV_aug13_preliminary.png")
+        c1.SaveAs("HH_1DExclusion_13TeV_aug13_preliminary.C")
     elif model=="HZ":
-        c1.SaveAs("HZ_1DExclusion_13TeV_jul04_preliminary.pdf")
-        c1.SaveAs("HZ_1DExclusion_13TeV_jul04_preliminary.png")
-        c1.SaveAs("HZ_1DExclusion_13TeV_jul04_preliminary.C")
+        c1.SaveAs("HZ_1DExclusion_13TeV_aug13_preliminary.pdf")
+        c1.SaveAs("HZ_1DExclusion_13TeV_aug13_preliminary.png")
+        c1.SaveAs("HZ_1DExclusion_13TeV_aug13_preliminary.C")
 
 
 

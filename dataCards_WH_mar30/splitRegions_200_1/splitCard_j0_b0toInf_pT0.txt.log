@@ -1,0 +1,41 @@
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Adding discrete pdfindex_j0_b0toInf_pT0_13TeV
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [env_pdf_61_13TeV_exp3_p1] at boundary. 
+  [WARNING] Found [env_pdf_61_13TeV_exp3_p2] at boundary. 
+  [WARNING] Found [env_pdf_61_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_61_13TeV_pow1_p1] at boundary. 
+Constraints of type SimpleGaussianConstraint: 13
+Median for expected limits: 228.938
+Sigma  for expected limits: 116.807
+Constraints of type SimpleGaussianConstraint: 13
+Constraints of type SimpleGaussianConstraint: 13
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -6.23602 (r = 27.2894)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -4.96994 (r = 4.20726e-05)
+At r = 228.342853:	q_mu = 3.12719	q_A  = 3.81502	CLsb = 0.03850	CLb  = 0.57332	CLs  = 0.06715
+At r = 456.685706:	q_mu = 12.86796	q_A  = 13.69934	CLsb = 0.00017	CLb  = 0.54541	CLs  = 0.00031
+At r = 241.987557:	q_mu = 3.53239	q_A  = 4.41838	CLsb = 0.03009	CLb  = 0.58805	CLs  = 0.05117
+At r = 349.336631:	q_mu = 7.83392	q_A  = 8.40027	CLsb = 0.00256	CLb  = 0.53959	CLs  = 0.00475
+At r = 295.662094:	q_mu = 5.49199	q_A  = 6.22404	CLsb = 0.00955	CLb  = 0.56013	CLs  = 0.01705
+At r = 253.626445:	q_mu = 3.92271	q_A  = 4.77656	CLsb = 0.02382	CLb  = 0.58119	CLs  = 0.04098
+At r = 245.285565:	q_mu = 3.64103	q_A  = 4.51801	CLsb = 0.02819	CLb  = 0.58606	CLs  = 0.04809
+At r = 243.631693:	q_mu = 3.58639	q_A  = 4.46791	CLsb = 0.02913	CLb  = 0.58705	CLs  = 0.04962
+At r = 242.974274:	q_mu = 3.56478	q_A  = 4.44811	CLsb = 0.02951	CLb  = 0.58745	CLs  = 0.05023
+
+ -- Asymptotic -- 
+Observed Limit: r < 242.9743
+Expected  2.5%: r < 125.6473
+Expected 16.0%: r < 166.8020
+Expected 50.0%: r < 228.9375
+Expected 84.0%: r < 326.5808
+Expected 97.5%: r < 446.4071
+
+Done in 1.26 min (cpu), 1.26 min (real)

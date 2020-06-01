@@ -23,6 +23,7 @@ class SMHiggsBuilder:
         if process == "VH":  
             makeXS("WH", energy); makeXS("ZH", energy);
             self.modelBuilder.factory_('sum::SM_XS_VH_'+energy+'(SM_XS_WH_'+energy+',SM_XS_ZH_'+energy+')')
+#            self.modelBuilder.factory_('sum::SM_XS_VH_'+energy+'(SM_XS_WH_'+energy+',SM_XS_ZH_'+energy+')')
     def makeTotalWidth(self):
         self.textToSpline("SM_GammaTot", os.path.join(self.brpath,"BR4.txt"), ycol=12);
     def makeBR(self,decay):

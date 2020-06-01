@@ -1,0 +1,31 @@
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Adding discrete pdfindex_j4toInf_b0_pT2_mt2_30_13TeV
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [env_pdf_23_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_23_13TeV_lau1_l1] at boundary. 
+Constraints of type SimpleGaussianConstraint: 14
+Median for expected limits: 20.3125
+Sigma  for expected limits: 10.3637
+Constraints of type SimpleGaussianConstraint: 14
+Constraints of type SimpleGaussianConstraint: 14
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -0.0710886 (r = 3.07716)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -0.215077 (r = 5.04174e-05)
+At r = 23.571740:	q_mu = 3.45285	q_A  = 4.84116	CLsb = 0.03157	CLb  = 0.63385	CLs  = 0.04981
+
+ -- Asymptotic -- 
+Observed Limit: r < 23.5717
+Expected  2.5%: r < 9.7992
+Expected 16.0%: r < 13.6185
+Expected 50.0%: r < 20.3125
+Expected 84.0%: r < 31.2430
+Expected 97.5%: r < 46.3859
+
+Done in 0.05 min (cpu), 0.05 min (real)

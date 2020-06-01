@@ -1,0 +1,40 @@
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Adding discrete pdfindex_j1to3_b1_pT2_mt2_30_13TeV
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [env_pdf_26_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_26_13TeV_lau1_l1] at boundary. 
+Constraints of type SimpleGaussianConstraint: 15
+Median for expected limits: 4.04688
+Sigma  for expected limits: 2.06477
+Constraints of type SimpleGaussianConstraint: 15
+Constraints of type SimpleGaussianConstraint: 15
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -3.70117 (r = 3.10024e-09)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -0.679348 (r = 4.3775e-05)
+At r = 1.200000:	q_mu = 4.12203	q_A  = 0.40243	CLsb = 0.00018	CLb  = 0.00169	CLs  = 0.10749
+At r = 2.400000:	q_mu = 8.47056	q_A  = 1.49489	CLsb = 0.00002	CLb  = 0.00217	CLs  = 0.01060
+At r = 1.200000:	q_mu = 4.12203	q_A  = 0.40243	CLsb = 0.00018	CLb  = 0.00169	CLs  = 0.10749
+At r = 1.800000:	q_mu = 6.27192	q_A  = 0.87222	CLsb = 0.00007	CLb  = 0.00192	CLs  = 0.03407
+At r = 1.519729:	q_mu = 5.26118	q_A  = 0.63265	CLsb = 0.00011	CLb  = 0.00181	CLs  = 0.05841
+At r = 1.640463:	q_mu = 5.69524	q_A  = 0.73165	CLsb = 0.00009	CLb  = 0.00186	CLs  = 0.04633
+At r = 1.584552:	q_mu = 5.49397	q_A  = 0.68500	CLsb = 0.00009	CLb  = 0.00184	CLs  = 0.05158
+At r = 1.608728:	q_mu = 5.58095	q_A  = 0.70500	CLsb = 0.00009	CLb  = 0.00184	CLs  = 0.04924
+At r = 1.597552:	q_mu = 5.54073	q_A  = 0.69572	CLsb = 0.00009	CLb  = 0.00184	CLs  = 0.05031
+At r = 1.602388:	q_mu = 5.55813	q_A  = 0.69973	CLsb = 0.00009	CLb  = 0.00184	CLs  = 0.04985
+
+ -- Asymptotic -- 
+Observed Limit: r < 1.6024
+Expected  2.5%: r < 2.0630
+Expected 16.0%: r < 2.8147
+Expected 50.0%: r < 4.0469
+Expected 84.0%: r < 5.9019
+Expected 97.5%: r < 8.3285
+
+Done in 0.08 min (cpu), 0.08 min (real)

@@ -1,0 +1,35 @@
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Adding discrete pdfindex_j4toInf_b0_pT2_mt2_0_13TeV
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [env_pdf_5_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_5_13TeV_lau1_l1] at boundary. 
+Constraints of type SimpleGaussianConstraint: 14
+Median for expected limits: 90.25
+Sigma  for expected limits: 46.0468
+Constraints of type SimpleGaussianConstraint: 14
+Constraints of type SimpleGaussianConstraint: 14
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -1.34045 (r = 33.7511)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -0.37347 (r = 0.021247)
+At r = 111.720258:	q_mu = 2.79580	q_A  = 5.65434	CLsb = 0.04726	CLb  = 0.75985	CLs  = 0.06219
+At r = 116.009678:	q_mu = 3.07525	q_A  = 6.04889	CLsb = 0.03975	CLb  = 0.75985	CLs  = 0.05231
+At r = 117.556973:	q_mu = 3.17853	q_A  = 6.19353	CLsb = 0.03731	CLb  = 0.75986	CLs  = 0.04910
+At r = 116.891147:	q_mu = 3.13393	q_A  = 6.13114	CLsb = 0.03834	CLb  = 0.75985	CLs  = 0.05046
+At r = 117.201396:	q_mu = 3.15468	q_A  = 6.16019	CLsb = 0.03785	CLb  = 0.75985	CLs  = 0.04982
+
+ -- Asymptotic -- 
+Observed Limit: r < 117.2014
+Expected  2.5%: r < 45.6538
+Expected 16.0%: r < 63.4226
+Expected 50.0%: r < 90.2500
+Expected 84.0%: r < 130.1812
+Expected 97.5%: r < 181.4596
+
+Done in 0.11 min (cpu), 0.11 min (real)

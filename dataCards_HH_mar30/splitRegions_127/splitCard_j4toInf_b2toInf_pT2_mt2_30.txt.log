@@ -1,0 +1,40 @@
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Adding discrete pdfindex_j4toInf_b2toInf_pT2_mt2_30_13TeV
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [env_pdf_35_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_35_13TeV_pow1_p1] at boundary. 
+Constraints of type SimpleGaussianConstraint: 15
+Median for expected limits: 23.4375
+Sigma  for expected limits: 11.9581
+Constraints of type SimpleGaussianConstraint: 15
+Constraints of type SimpleGaussianConstraint: 15
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -1.12498 (r = 6.01331e-14)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -0.506101 (r = 3.57516e-05)
+At r = 17.662598:	q_mu = 4.24255	q_A  = 2.66595	CLsb = 0.01719	CLb  = 0.31462	CLs  = 0.05464
+At r = 35.325196:	q_mu = 8.30241	q_A  = 6.20861	CLsb = 0.00180	CLb  = 0.33719	CLs  = 0.00533
+At r = 17.662598:	q_mu = 4.24255	q_A  = 2.66595	CLsb = 0.01719	CLb  = 0.31462	CLs  = 0.05464
+At r = 26.493897:	q_mu = 6.35061	q_A  = 4.46707	CLsb = 0.00525	CLb  = 0.32795	CLs  = 0.01600
+At r = 19.939244:	q_mu = 4.80088	q_A  = 3.13173	CLsb = 0.01250	CLb  = 0.31861	CLs  = 0.03925
+At r = 18.606343:	q_mu = 4.47519	q_A  = 2.85881	CLsb = 0.01505	CLb  = 0.31633	CLs  = 0.04757
+At r = 18.146449:	q_mu = 4.36203	q_A  = 2.76477	CLsb = 0.01605	CLb  = 0.31551	CLs  = 0.05088
+At r = 18.334260:	q_mu = 4.40829	q_A  = 2.80316	CLsb = 0.01564	CLb  = 0.31584	CLs  = 0.04950
+At r = 18.242096:	q_mu = 4.38560	q_A  = 2.78432	CLsb = 0.01584	CLb  = 0.31568	CLs  = 0.05017
+At r = 18.279621:	q_mu = 4.39484	q_A  = 2.79199	CLsb = 0.01576	CLb  = 0.31575	CLs  = 0.04990
+
+ -- Asymptotic -- 
+Observed Limit: r < 18.2796
+Expected  2.5%: r < 9.8419
+Expected 16.0%: r < 14.3561
+Expected 50.0%: r < 23.4375
+Expected 84.0%: r < 41.5615
+Expected 97.5%: r < 71.0379
+
+Done in 0.05 min (cpu), 0.05 min (real)

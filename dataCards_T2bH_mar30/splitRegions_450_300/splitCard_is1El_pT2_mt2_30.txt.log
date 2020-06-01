@@ -1,0 +1,40 @@
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Adding discrete pdfindex_is1El_pT2_mt2_30_13TeV
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [env_pdf_46_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_46_13TeV_lau1_l1] at boundary. 
+Constraints of type SimpleGaussianConstraint: 15
+Median for expected limits: 17.9531
+Sigma  for expected limits: 9.15993
+Constraints of type SimpleGaussianConstraint: 15
+Constraints of type SimpleGaussianConstraint: 15
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -1.16403 (r = 0)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -0.301015 (r = 8.90375e-05)
+At r = 6.896818:	q_mu = 2.98865	q_A  = 0.85167	CLsb = 0.01873	CLb  = 0.12347	CLs  = 0.15171
+At r = 13.793636:	q_mu = 6.01769	q_A  = 2.58772	CLsb = 0.00374	CLb  = 0.14319	CLs  = 0.02611
+At r = 6.896818:	q_mu = 2.98865	q_A  = 0.85167	CLsb = 0.01873	CLb  = 0.12347	CLs  = 0.15171
+At r = 10.345227:	q_mu = 4.49997	q_A  = 1.65249	CLsb = 0.00835	CLb  = 0.13403	CLs  = 0.06234
+At r = 11.734100:	q_mu = 5.11064	q_A  = 2.01569	CLsb = 0.00604	CLb  = 0.13786	CLs  = 0.04382
+At r = 11.040479:	q_mu = 4.80554	q_A  = 1.83181	CLsb = 0.00710	CLb  = 0.13598	CLs  = 0.05224
+At r = 11.317396:	q_mu = 4.92732	q_A  = 1.90465	CLsb = 0.00666	CLb  = 0.13674	CLs  = 0.04869
+At r = 11.178506:	q_mu = 4.86624	q_A  = 1.86802	CLsb = 0.00688	CLb  = 0.13636	CLs  = 0.05044
+At r = 11.233855:	q_mu = 4.89058	q_A  = 1.88259	CLsb = 0.00679	CLb  = 0.13651	CLs  = 0.04974
+At r = 11.206071:	q_mu = 4.87836	q_A  = 1.87527	CLsb = 0.00683	CLb  = 0.13643	CLs  = 0.05009
+
+ -- Asymptotic -- 
+Observed Limit: r < 11.2061
+Expected  2.5%: r < 8.1701
+Expected 16.0%: r < 11.6476
+Expected 50.0%: r < 17.9531
+Expected 84.0%: r < 28.6874
+Expected 97.5%: r < 43.8664
+
+Done in 0.04 min (cpu), 0.04 min (real)

@@ -1,0 +1,40 @@
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Adding discrete pdfindex_j1to3_b2toInf_pT0_mt2_30_13TeV
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [env_pdf_30_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_30_13TeV_lau1_l1] at boundary. 
+Constraints of type SimpleGaussianConstraint: 15
+Median for expected limits: 158.25
+Sigma  for expected limits: 80.7413
+Constraints of type SimpleGaussianConstraint: 15
+Constraints of type SimpleGaussianConstraint: 15
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -1.14275 (r = 2.60523e-14)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -0.564921 (r = 0.000182986)
+At r = 311.718017:	q_mu = 10.93296	q_A  = 9.00648	CLsb = 0.00045	CLb  = 0.37412	CLs  = 0.00119
+At r = 155.859009:	q_mu = 5.39654	q_A  = 3.75825	CLsb = 0.00911	CLb  = 0.33631	CLs  = 0.02708
+At r = 77.929504:	q_mu = 2.20712	q_A  = 1.46057	CLsb = 0.06458	CLb  = 0.37871	CLs  = 0.17053
+At r = 116.894257:	q_mu = 3.80033	q_A  = 2.51135	CLsb = 0.02322	CLb  = 0.34212	CLs  = 0.06786
+At r = 135.054310:	q_mu = 4.56275	q_A  = 3.07788	CLsb = 0.01472	CLb  = 0.33608	CLs  = 0.04380
+At r = 127.027554:	q_mu = 4.22539	q_A  = 2.82351	CLsb = 0.01798	CLb  = 0.33829	CLs  = 0.05314
+At r = 130.654239:	q_mu = 4.37780	q_A  = 2.93775	CLsb = 0.01642	CLb  = 0.33721	CLs  = 0.04869
+At r = 129.047113:	q_mu = 4.31025	q_A  = 2.88698	CLsb = 0.01709	CLb  = 0.33767	CLs  = 0.05061
+At r = 129.772152:	q_mu = 4.34072	q_A  = 2.90986	CLsb = 0.01678	CLb  = 0.33746	CLs  = 0.04973
+At r = 129.450661:	q_mu = 4.32721	q_A  = 2.89971	CLsb = 0.01692	CLb  = 0.33755	CLs  = 0.05012
+
+ -- Asymptotic -- 
+Observed Limit: r < 129.4507
+Expected  2.5%: r < 61.3528
+Expected 16.0%: r < 99.5818
+Expected 50.0%: r < 158.2500
+Expected 84.0%: r < 262.9614
+Expected 97.5%: r < 441.9977
+
+Done in 0.14 min (cpu), 0.14 min (real)

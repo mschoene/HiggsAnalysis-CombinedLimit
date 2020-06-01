@@ -1,0 +1,41 @@
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Adding discrete pdfindex_j1to3_b0_pT0_mt2_30_13TeV
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [env_pdf_18_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_18_13TeV_exp3_f1] at boundary. 
+  [WARNING] Found [env_pdf_18_13TeV_exp3_p1] at boundary. 
+  [WARNING] Found [env_pdf_18_13TeV_exp3_p2] at boundary. 
+  [WARNING] Found [env_pdf_18_13TeV_lau1_l1] at boundary. 
+Constraints of type SimpleGaussianConstraint: 14
+Median for expected limits: 15.4375
+Sigma  for expected limits: 7.87642
+Constraints of type SimpleGaussianConstraint: 14
+Constraints of type SimpleGaussianConstraint: 14
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -0.477721 (r = 9.87996)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -0.261245 (r = 0.00646043)
+At r = 31.256321:	q_mu = 6.25151	q_A  = 14.21538	CLsb = 0.00620	CLb  = 0.89796	CLs  = 0.00691
+At r = 20.568139:	q_mu = 1.94386	q_A  = 6.68229	CLsb = 0.08163	CLb  = 0.88313	CLs  = 0.09243
+At r = 25.912230:	q_mu = 3.85364	q_A  = 10.21122	CLsb = 0.02482	CLb  = 0.89111	CLs  = 0.02785
+At r = 22.757944:	q_mu = 2.70358	q_A  = 8.06260	CLsb = 0.05006	CLb  = 0.88400	CLs  = 0.05663
+At r = 23.831618:	q_mu = 3.07080	q_A  = 8.77380	CLsb = 0.03986	CLb  = 0.88680	CLs  = 0.04494
+At r = 23.220655:	q_mu = 2.85866	q_A  = 8.36644	CLsb = 0.04544	CLb  = 0.88526	CLs  = 0.05133
+At r = 23.439460:	q_mu = 2.93368	q_A  = 8.51153	CLsb = 0.04337	CLb  = 0.88583	CLs  = 0.04897
+At r = 23.318110:	q_mu = 2.89194	q_A  = 8.43095	CLsb = 0.04451	CLb  = 0.88552	CLs  = 0.05027
+
+ -- Asymptotic -- 
+Observed Limit: r < 23.3181
+Expected  2.5%: r < 8.2313
+Expected 16.0%: r < 11.0181
+Expected 50.0%: r < 15.4375
+Expected 84.0%: r < 21.7756
+Expected 97.5%: r < 29.7388
+
+Done in 0.19 min (cpu), 0.19 min (real)

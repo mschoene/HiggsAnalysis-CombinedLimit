@@ -1,0 +1,40 @@
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Adding discrete pdfindex_j4toInf_b1_pT0_mt2_0_13TeV
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [env_pdf_9_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_9_13TeV_lau1_l1] at boundary. 
+Constraints of type SimpleGaussianConstraint: 14
+WARNING: Best fit of asimov dataset is at r = 0.057710 (0.002885 times rMax), while it should be at zero
+Median for expected limits: 943.5
+Sigma  for expected limits: 481.386
+Constraints of type SimpleGaussianConstraint: 14
+Constraints of type SimpleGaussianConstraint: 14
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -0.605812 (r = 2.5998e-05)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -0.292942 (r = 0.000109507)
+At r = 1265.479183:	q_mu = 7.96105	q_A  = 6.08598	CLsb = 0.00221	CLb  = 0.35196	CLs  = 0.00627
+At r = 632.739604:	q_mu = 3.17178	q_A  = 1.96509	CLsb = 0.03346	CLb  = 0.33345	CLs  = 0.10034
+At r = 949.109393:	q_mu = 5.46636	q_A  = 3.87859	CLsb = 0.00883	CLb  = 0.34343	CLs  = 0.02572
+At r = 762.249532:	q_mu = 4.07638	q_A  = 2.70182	CLsb = 0.01961	CLb  = 0.33793	CLs  = 0.05803
+At r = 826.994972:	q_mu = 4.54794	q_A  = 3.09572	CLsb = 0.01492	CLb  = 0.33992	CLs  = 0.04390
+At r = 789.898411:	q_mu = 4.27631	q_A  = 2.86810	CLsb = 0.01746	CLb  = 0.33879	CLs  = 0.05153
+At r = 802.908786:	q_mu = 4.37114	q_A  = 2.94735	CLsb = 0.01653	CLb  = 0.33919	CLs  = 0.04872
+At r = 795.501462:	q_mu = 4.31709	q_A  = 2.90215	CLsb = 0.01705	CLb  = 0.33897	CLs  = 0.05030
+At r = 798.106395:	q_mu = 4.33608	q_A  = 2.91802	CLsb = 0.01686	CLb  = 0.33905	CLs  = 0.04974
+
+ -- Asymptotic -- 
+Observed Limit: r < 798.1064
+Expected  2.5%: r < 464.3789
+Expected 16.0%: r < 638.4346
+Expected 50.0%: r < 943.5000
+Expected 84.0%: r < 1443.6906
+Expected 97.5%: r < 2184.2070
+
+Done in 1.28 min (cpu), 1.28 min (real)

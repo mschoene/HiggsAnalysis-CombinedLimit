@@ -1,0 +1,17 @@
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Traceback (most recent call last):
+  File "/mnt/t3nfs01/data01/shome/mschoene/CMSSW_7_4_7_gg/bin/slc6_amd64_gcc491/text2workspace.py", line 57, in <module>
+    MB.doModel()
+  File "/mnt/t3nfs01/data01/shome/mschoene/CMSSW_7_4_7_gg/python/HiggsAnalysis/CombinedLimit/ModelTools.py", line 96, in doModel
+    self.doObservables()
+  File "/mnt/t3nfs01/data01/shome/mschoene/CMSSW_7_4_7_gg/python/HiggsAnalysis/CombinedLimit/ShapeTools.py", line 24, in doObservables
+    self.prepareAllShapes();
+  File "/mnt/t3nfs01/data01/shome/mschoene/CMSSW_7_4_7_gg/python/HiggsAnalysis/CombinedLimit/ShapeTools.py", line 234, in prepareAllShapes
+    shape = self.getShape(b,p); norm = 0;
+  File "/mnt/t3nfs01/data01/shome/mschoene/CMSSW_7_4_7_gg/python/HiggsAnalysis/CombinedLimit/ShapeTools.py", line 393, in getShape
+    raise RuntimeError, "Object %s in workspace %s in file %s does not exist or it's neither a data nor a pdf" % (oname, wname, finalNames[0])
+RuntimeError: Object hggpdfsmrel_13TeV_SMS_TChiHZ_HToGG_m525_j1to3_b0_pT0_mt2_0 in workspace wsig_13TeV in file CMS-HGG_13TeV_sigfit_2019mar30_HZ.root does not exist or it's neither a data nor a pdf
+Error when running the combination:
+	Failed to convert the input datacard from LandS to RooStats format. The lines above probably contain more information about the error.

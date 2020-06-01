@@ -1,0 +1,41 @@
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Adding discrete pdfindex_is1El_pT1_mt2_30_13TeV
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [env_pdf_42_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_42_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_42_13TeV_pow1_p1] at boundary. 
+Constraints of type SimpleGaussianConstraint: 15
+Median for expected limits: 15.6875
+Sigma  for expected limits: 8.00397
+Constraints of type SimpleGaussianConstraint: 15
+Constraints of type SimpleGaussianConstraint: 15
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -2.0822 (r = 8.85619e-08)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -0.465501 (r = 3.2547e-05)
+At r = 5.328758:	q_mu = 3.02313	q_A  = 0.70975	CLsb = 0.01336	CLb  = 0.08488	CLs  = 0.15746
+At r = 10.657516:	q_mu = 6.14401	q_A  = 2.05379	CLsb = 0.00212	CLb  = 0.07678	CLs  = 0.02757
+At r = 5.328758:	q_mu = 3.02313	q_A  = 0.70975	CLsb = 0.01336	CLb  = 0.08488	CLs  = 0.15746
+At r = 7.993137:	q_mu = 4.57567	q_A  = 1.29094	CLsb = 0.00492	CLb  = 0.07416	CLs  = 0.06629
+At r = 9.211247:	q_mu = 5.29113	q_A  = 1.62073	CLsb = 0.00332	CLb  = 0.07472	CLs  = 0.04440
+At r = 8.678901:	q_mu = 4.97809	q_A  = 1.47235	CLsb = 0.00393	CLb  = 0.07429	CLs  = 0.05291
+At r = 8.922752:	q_mu = 5.12142	q_A  = 1.53952	CLsb = 0.00364	CLb  = 0.07445	CLs  = 0.04883
+At r = 8.816315:	q_mu = 5.05884	q_A  = 1.51003	CLsb = 0.00376	CLb  = 0.07437	CLs  = 0.05057
+At r = 8.865092:	q_mu = 5.08752	q_A  = 1.52352	CLsb = 0.00370	CLb  = 0.07441	CLs  = 0.04976
+At r = 8.843806:	q_mu = 5.07500	q_A  = 1.51763	CLsb = 0.00373	CLb  = 0.07439	CLs  = 0.05011
+
+ -- Asymptotic -- 
+Observed Limit: r < 8.8438
+Expected  2.5%: r < 7.3229
+Expected 16.0%: r < 10.4923
+Expected 50.0%: r < 15.6875
+Expected 84.0%: r < 24.2543
+Expected 97.5%: r < 36.4368
+
+Done in 0.05 min (cpu), 0.05 min (real)

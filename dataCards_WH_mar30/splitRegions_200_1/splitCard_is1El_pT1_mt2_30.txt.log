@@ -1,0 +1,41 @@
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Adding discrete pdfindex_is1El_pT1_mt2_30_13TeV
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [env_pdf_42_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_42_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_42_13TeV_pow1_p1] at boundary. 
+Constraints of type SimpleGaussianConstraint: 15
+Median for expected limits: 9.125
+Sigma  for expected limits: 4.6557
+Constraints of type SimpleGaussianConstraint: 15
+Constraints of type SimpleGaussianConstraint: 15
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -1.88873 (r = 2.39882e-08)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -0.407252 (r = 1.30197e-05)
+At r = 3.144225:	q_mu = 3.03425	q_A  = 0.73033	CLsb = 0.01381	CLb  = 0.08884	CLs  = 0.15549
+At r = 6.288449:	q_mu = 6.18798	q_A  = 2.10655	CLsb = 0.00214	CLb  = 0.07986	CLs  = 0.02674
+At r = 3.144225:	q_mu = 3.03425	q_A  = 0.73033	CLsb = 0.01381	CLb  = 0.08884	CLs  = 0.15549
+At r = 4.716337:	q_mu = 4.59963	q_A  = 1.32519	CLsb = 0.00504	CLb  = 0.07748	CLs  = 0.06499
+At r = 5.402086:	q_mu = 5.28996	q_A  = 1.64646	CLsb = 0.00344	CLb  = 0.07784	CLs  = 0.04415
+At r = 5.088446:	q_mu = 4.97372	q_A  = 1.49547	CLsb = 0.00408	CLb  = 0.07749	CLs  = 0.05270
+At r = 5.225819:	q_mu = 5.11213	q_A  = 1.56079	CLsb = 0.00379	CLb  = 0.07761	CLs  = 0.04877
+At r = 5.163129:	q_mu = 5.04894	q_A  = 1.53082	CLsb = 0.00392	CLb  = 0.07755	CLs  = 0.05053
+At r = 5.190612:	q_mu = 5.07664	q_A  = 1.54392	CLsb = 0.00386	CLb  = 0.07758	CLs  = 0.04975
+At r = 5.178075:	q_mu = 5.06400	q_A  = 1.53794	CLsb = 0.00389	CLb  = 0.07757	CLs  = 0.05011
+
+ -- Asymptotic -- 
+Observed Limit: r < 5.1781
+Expected  2.5%: r < 4.2595
+Expected 16.0%: r < 6.1031
+Expected 50.0%: r < 9.1250
+Expected 84.0%: r < 13.9626
+Expected 97.5%: r < 20.8013
+
+Done in 0.04 min (cpu), 0.05 min (real)

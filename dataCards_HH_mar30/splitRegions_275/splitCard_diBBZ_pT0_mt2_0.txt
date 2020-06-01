@@ -1,0 +1,36 @@
+Combination of dataCards_HH_mar30//Datacard_13TeV_SMS_TChiHH_HToGG_m275.txt
+imax 1 number of bins
+jmax 4 number of processes minus 1
+kmax 15 number of nuisance parameters
+----------------------------------------------------------------------------------------------------------------------------------
+shapes SMS_TChiHH_HToGG_m275       ch1_diBBZ_pT0_mt2_0         dataCards_HH_mar30/CMS-HGG_13TeV_sigfit_2019mar30_HH.root wsig_13TeV:hggpdfsmrel_13TeV_SMS_TChiHH_HToGG_m275_diBBZ_pT0_mt2_0
+shapes SMS_TChiHH_HToGG_m275_2017  ch1_diBBZ_pT0_mt2_0         dataCards_HH_mar30/CMS-HGG_13TeV_sigfit_2019mar30_HH.root wsig_13TeV:hggpdfsmrel_13TeV_SMS_TChiHH_HToGG_m275_2017_diBBZ_pT0_mt2_0
+shapes bkg_mass                    ch1_diBBZ_pT0_mt2_0         dataCards_HH_mar30/CMS-HGG_multipdf_data_mar20.root multipdf:CMS_hgg_diBBZ_pT0_mt2_0_13TeV_bkgshape
+shapes data_obs                    ch1_diBBZ_pT0_mt2_0         dataCards_HH_mar30/CMS-HGG_multipdf_data_mar20.root multipdf:roohist_data_mass_diBBZ_pT0_mt2_0
+shapes higgs_2016                  ch1_diBBZ_pT0_mt2_0         dataCards_HH_mar30/CMS-HGG_13TeV_sigfit_2019mar20_Higgs.root wsig_13TeV:hggpdfsmrel_13TeV_higgs_2016_diBBZ_pT0_mt2_0
+shapes higgs_2017                  ch1_diBBZ_pT0_mt2_0         dataCards_HH_mar30/CMS-HGG_13TeV_sigfit_2019mar20_Higgs.root wsig_13TeV:hggpdfsmrel_13TeV_higgs_2017_diBBZ_pT0_mt2_0
+----------------------------------------------------------------------------------------------------------------------------------
+bin          ch1_diBBZ_pT0_mt2_0
+observation  -1.0               
+----------------------------------------------------------------------------------------------------------------------------------
+bin                                       ch1_diBBZ_pT0_mt2_0         ch1_diBBZ_pT0_mt2_0         ch1_diBBZ_pT0_mt2_0         ch1_diBBZ_pT0_mt2_0         ch1_diBBZ_pT0_mt2_0       
+process                                   SMS_TChiHH_HToGG_m275_2017  SMS_TChiHH_HToGG_m275       bkg_mass                    higgs_2016                  higgs_2017                
+process                                   -1                          0                           1                           2                           3                         
+rate                                      41.5000                     35.9000                     1.0000                      35.9000                     41.5000                   
+----------------------------------------------------------------------------------------------------------------------------------
+BR_hgg                  lnN               0.980/1.021                 0.980/1.021                 -                           0.980/1.021                 0.980/1.021               
+btagsf_heavy_syst_2016   lnN              -                           1.025                       -                           1.02                        -                         
+btagsf_heavy_syst_2017   lnN              1.028                       -                           -                           -                           1.02                      
+btagsf_light_syst_2016   lnN              -                           0.991                       -                           1.068                       -                         
+btagsf_light_syst_2017   lnN              1.011                       -                           -                           -                           1.068                     
+gammasf_syst            lnN               1.043                       1.029                       -                           1.036                       1.041                     
+genMET_syst             lnN               1.043                       0.972                       -                           -                           -                         
+isr_syst                lnN               0.9                         0.917                       -                           -                           -                         
+jecVar_syst             lnN               1.016/0.923                 0.925                       -                           1.073                       1.085                     
+lepsf_syst              lnN               1.0                         1.0                         -                           1.001                       1.002                     
+lumi_2016               lnN               -                           1.025                       -                           1.025                       -                         
+lumi_2017               lnN               1.023                       -                           -                           -                           1.023                     
+pdf_syst                lnN               -                           -                           -                           0.628                       1.006                     
+scale_syst              lnN               0.983                       0.984                       -                           0.985                       0.979                     
+pdfindex_diBBZ_pT0_mt2_0_13TeV discrete
+MH            param  125.0 0.01

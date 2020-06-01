@@ -1,0 +1,43 @@
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Adding discrete pdfindex_diBBZ_pT0_mt2_0_13TeV
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [env_pdf_48_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_48_13TeV_exp3_f1] at boundary. 
+  [WARNING] Found [env_pdf_48_13TeV_exp3_p1] at boundary. 
+  [WARNING] Found [env_pdf_48_13TeV_exp3_p2] at boundary. 
+  [WARNING] Found [env_pdf_48_13TeV_lau1_l1] at boundary. 
+Constraints of type SimpleGaussianConstraint: 15
+WARNING: Best fit of asimov dataset is at r = 0.021113 (0.001056 times rMax), while it should be at zero
+Median for expected limits: 127.812
+Sigma  for expected limits: 65.2117
+Constraints of type SimpleGaussianConstraint: 15
+Constraints of type SimpleGaussianConstraint: 15
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -0.566264 (r = 15.5473)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -0.720985 (r = 0.0476993)
+At r = 156.368422:	q_mu = 4.41762	q_A  = 5.45058	CLsb = 0.01778	CLb  = 0.59205	CLs  = 0.03004
+At r = 85.957859:	q_mu = 1.28256	q_A  = 1.87327	CLsb = 0.12871	CLb  = 0.59335	CLs  = 0.21692
+At r = 121.163140:	q_mu = 2.70578	q_A  = 3.49720	CLsb = 0.04999	CLb  = 0.58907	CLs  = 0.08487
+At r = 135.510168:	q_mu = 3.39463	q_A  = 4.25763	CLsb = 0.03270	CLb  = 0.58743	CLs  = 0.05567
+At r = 142.588540:	q_mu = 3.75574	q_A  = 4.65085	CLsb = 0.02631	CLb  = 0.58652	CLs  = 0.04486
+At r = 139.745011:	q_mu = 3.60901	q_A  = 4.49139	CLsb = 0.02873	CLb  = 0.58689	CLs  = 0.04896
+At r = 138.343468:	q_mu = 3.53751	q_A  = 4.41354	CLsb = 0.03000	CLb  = 0.58707	CLs  = 0.05110
+At r = 138.912899:	q_mu = 3.56649	q_A  = 4.44511	CLsb = 0.02948	CLb  = 0.58700	CLs  = 0.05022
+At r = 139.193763:	q_mu = 3.58082	q_A  = 4.46071	CLsb = 0.02923	CLb  = 0.58696	CLs  = 0.04979
+
+ -- Asymptotic -- 
+Observed Limit: r < 139.1938
+Expected  2.5%: r < 65.6537
+Expected 16.0%: r < 89.2060
+Expected 50.0%: r < 127.8125
+Expected 84.0%: r < 188.4390
+Expected 97.5%: r < 275.2532
+
+Done in 0.22 min (cpu), 0.22 min (real)

@@ -1,0 +1,40 @@
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Adding discrete pdfindex_diBBZ_pT2_mt2_0_13TeV
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [env_pdf_50_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_50_13TeV_lau1_l1] at boundary. 
+Constraints of type SimpleGaussianConstraint: 15
+Median for expected limits: 0.681641
+Sigma  for expected limits: 0.347782
+Constraints of type SimpleGaussianConstraint: 15
+Constraints of type SimpleGaussianConstraint: 15
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -15.658 (r = 6.32827e-13)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -12.2425 (r = 3.46106e-06)
+At r = 1.200000:	q_mu = 14.02935	q_A  = 9.51144	CLsb = 0.00007	CLb  = 0.23194	CLs  = 0.00029
+At r = 0.600000:	q_mu = 5.72362	q_A  = 3.10590	CLsb = 0.00612	CLb  = 0.22884	CLs  = 0.02675
+At r = 0.300000:	q_mu = 2.32518	q_A  = 0.90993	CLsb = 0.04497	CLb  = 0.22910	CLs  = 0.19629
+At r = 0.450000:	q_mu = 3.92921	q_A  = 1.88695	CLsb = 0.01713	CLb  = 0.22863	CLs  = 0.07492
+At r = 0.527123:	q_mu = 4.83150	q_A  = 2.48728	CLsb = 0.01016	CLb  = 0.22868	CLs  = 0.04444
+At r = 0.497767:	q_mu = 4.48265	q_A  = 2.25180	CLsb = 0.01242	CLb  = 0.22864	CLs  = 0.05431
+At r = 0.513323:	q_mu = 4.66672	q_A  = 2.37556	CLsb = 0.01117	CLb  = 0.22866	CLs  = 0.04885
+At r = 0.507478:	q_mu = 4.59734	q_A  = 2.32878	CLsb = 0.01162	CLb  = 0.22865	CLs  = 0.05084
+At r = 0.510594:	q_mu = 4.63430	q_A  = 2.35368	CLsb = 0.01138	CLb  = 0.22866	CLs  = 0.04977
+At r = 0.509426:	q_mu = 4.62044	q_A  = 2.34434	CLsb = 0.01147	CLb  = 0.22866	CLs  = 0.05017
+
+ -- Asymptotic -- 
+Observed Limit: r < 0.5094
+Expected  2.5%: r < 0.3368
+Expected 16.0%: r < 0.4648
+Expected 50.0%: r < 0.6816
+Expected 84.0%: r < 1.0213
+Expected 97.5%: r < 1.4854
+
+Done in 0.08 min (cpu), 0.08 min (real)

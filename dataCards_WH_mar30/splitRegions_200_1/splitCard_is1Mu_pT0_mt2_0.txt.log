@@ -1,0 +1,40 @@
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Adding discrete pdfindex_is1Mu_pT0_mt2_0_13TeV
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [env_pdf_37_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_37_13TeV_lau1_l1] at boundary. 
+Constraints of type SimpleGaussianConstraint: 15
+WARNING: Best fit of asimov dataset is at r = 0.662257 (0.033113 times rMax), while it should be at zero
+Median for expected limits: 17.75
+Sigma  for expected limits: 9.05629
+Constraints of type SimpleGaussianConstraint: 15
+Constraints of type SimpleGaussianConstraint: 15
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -0.468323 (r = 3.59289)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -0.282321 (r = 0.662291)
+At r = 23.956325:	q_mu = 5.18758	q_A  = 6.44138	CLsb = 0.01137	CLb  = 0.60271	CLs  = 0.01887
+At r = 13.774610:	q_mu = 1.57339	q_A  = 2.43380	CLsb = 0.10486	CLb  = 0.62009	CLs  = 0.16910
+At r = 18.865467:	q_mu = 3.20346	q_A  = 4.27604	CLsb = 0.03674	CLb  = 0.60951	CLs  = 0.06028
+At r = 20.539369:	q_mu = 3.82227	q_A  = 4.95751	CLsb = 0.02529	CLb  = 0.60699	CLs  = 0.04166
+At r = 19.543219:	q_mu = 3.44967	q_A  = 4.54801	CLsb = 0.03163	CLb  = 0.60845	CLs  = 0.05199
+At r = 19.882773:	q_mu = 3.57528	q_A  = 4.68632	CLsb = 0.02932	CLb  = 0.60794	CLs  = 0.04823
+At r = 19.684511:	q_mu = 3.50176	q_A  = 4.60540	CLsb = 0.03065	CLb  = 0.60823	CLs  = 0.05039
+At r = 19.752618:	q_mu = 3.52696	q_A  = 4.63314	CLsb = 0.03019	CLb  = 0.60813	CLs  = 0.04964
+At r = 19.713005:	q_mu = 3.51229	q_A  = 4.61700	CLsb = 0.03046	CLb  = 0.60819	CLs  = 0.05008
+
+ -- Asymptotic -- 
+Observed Limit: r < 19.7130
+Expected  2.5%: r < 9.0483
+Expected 16.0%: r < 12.3794
+Expected 50.0%: r < 17.7500
+Expected 84.0%: r < 26.0280
+Expected 97.5%: r < 37.2724
+
+Done in 0.06 min (cpu), 0.06 min (real)

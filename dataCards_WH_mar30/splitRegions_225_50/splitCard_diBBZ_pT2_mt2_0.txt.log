@@ -1,0 +1,40 @@
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Adding discrete pdfindex_diBBZ_pT2_mt2_0_13TeV
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [env_pdf_50_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_50_13TeV_lau1_l1] at boundary. 
+Constraints of type SimpleGaussianConstraint: 15
+Median for expected limits: 146.812
+Sigma  for expected limits: 74.9057
+Constraints of type SimpleGaussianConstraint: 15
+Constraints of type SimpleGaussianConstraint: 15
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -0.741775 (r = 4.05488e-14)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -0.230728 (r = 0.000967522)
+At r = 97.516538:	q_mu = 4.43457	q_A  = 1.86720	CLsb = 0.01056	CLb  = 0.17376	CLs  = 0.06077
+At r = 195.033075:	q_mu = 10.79524	q_A  = 6.21291	CLsb = 0.00032	CLb  = 0.17900	CLs  = 0.00180
+At r = 97.516538:	q_mu = 4.43457	q_A  = 1.86720	CLsb = 0.01056	CLb  = 0.17376	CLs  = 0.06077
+At r = 146.274807:	q_mu = 7.44846	q_A  = 3.81700	CLsb = 0.00197	CLb  = 0.17635	CLs  = 0.01117
+At r = 121.895672:	q_mu = 5.89300	q_A  = 2.77801	CLsb = 0.00464	CLb  = 0.17503	CLs  = 0.02654
+At r = 106.983394:	q_mu = 4.98833	q_A  = 2.20441	CLsb = 0.00771	CLb  = 0.17425	CLs  = 0.04426
+At r = 102.177009:	q_mu = 4.70510	q_A  = 2.03049	CLsb = 0.00905	CLb  = 0.17400	CLs  = 0.05203
+At r = 104.084651:	q_mu = 4.81701	q_A  = 2.09885	CLsb = 0.00850	CLb  = 0.17409	CLs  = 0.04881
+At r = 103.126227:	q_mu = 4.76070	q_A  = 2.06439	CLsb = 0.00877	CLb  = 0.17404	CLs  = 0.05040
+At r = 103.508329:	q_mu = 4.78313	q_A  = 2.07811	CLsb = 0.00866	CLb  = 0.17406	CLs  = 0.04976
+
+ -- Asymptotic -- 
+Observed Limit: r < 103.5083
+Expected  2.5%: r < 74.2665
+Expected 16.0%: r < 101.1879
+Expected 50.0%: r < 146.8125
+Expected 84.0%: r < 217.6218
+Expected 97.5%: r < 309.6835
+
+Done in 0.30 min (cpu), 0.30 min (real)

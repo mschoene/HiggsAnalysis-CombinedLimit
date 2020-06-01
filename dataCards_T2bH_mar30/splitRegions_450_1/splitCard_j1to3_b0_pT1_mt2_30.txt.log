@@ -1,0 +1,43 @@
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Adding discrete pdfindex_j1to3_b0_pT1_mt2_30_13TeV
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [env_pdf_19_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_19_13TeV_exp3_f1] at boundary. 
+  [WARNING] Found [env_pdf_19_13TeV_exp3_p1] at boundary. 
+  [WARNING] Found [env_pdf_19_13TeV_exp3_p2] at boundary. 
+  [WARNING] Found [env_pdf_19_13TeV_lau1_l1] at boundary. 
+Constraints of type SimpleGaussianConstraint: 15
+WARNING: Best fit of asimov dataset is at r = 0.030817 (0.001541 times rMax), while it should be at zero
+Median for expected limits: 1655.5
+Sigma  for expected limits: 844.658
+Constraints of type SimpleGaussianConstraint: 15
+Constraints of type SimpleGaussianConstraint: 15
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -0.826228 (r = 2.70224e-13)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -0.365185 (r = 0.0394312)
+At r = 1485.905863:	q_mu = 4.86791	q_A  = 3.23776	CLsb = 0.01215	CLb  = 0.32528	CLs  = 0.03735
+At r = 742.952932:	q_mu = 2.24421	q_A  = 0.98051	CLsb = 0.05173	CLb  = 0.26171	CLs  = 0.19767
+At r = 1114.429398:	q_mu = 3.61345	q_A  = 2.01020	CLsb = 0.02367	CLb  = 0.28590	CLs  = 0.08280
+At r = 1302.731721:	q_mu = 4.23456	q_A  = 2.61355	CLsb = 0.01709	CLb  = 0.30806	CLs  = 0.05547
+At r = 1377.828157:	q_mu = 4.49116	q_A  = 2.86555	CLsb = 0.01489	CLb  = 0.31556	CLs  = 0.04719
+At r = 1341.322668:	q_mu = 4.36586	q_A  = 2.74232	CLsb = 0.01593	CLb  = 0.31200	CLs  = 0.05105
+At r = 1356.371080:	q_mu = 4.41738	q_A  = 2.79296	CLsb = 0.01549	CLb  = 0.31348	CLs  = 0.04943
+At r = 1349.075619:	q_mu = 4.39238	q_A  = 2.76838	CLsb = 0.01570	CLb  = 0.31277	CLs  = 0.05021
+At r = 1352.086480:	q_mu = 4.40269	q_A  = 2.77852	CLsb = 0.01562	CLb  = 0.31306	CLs  = 0.04988
+
+ -- Asymptotic -- 
+Observed Limit: r < 1352.0865
+Expected  2.5%: r < 805.1162
+Expected 16.0%: r < 1114.0447
+Expected 50.0%: r < 1655.5000
+Expected 84.0%: r < 2599.1418
+Expected 97.5%: r < 4063.9417
+
+Done in 3.26 min (cpu), 3.27 min (real)

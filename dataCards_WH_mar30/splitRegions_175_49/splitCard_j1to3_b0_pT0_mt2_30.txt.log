@@ -1,0 +1,41 @@
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Adding discrete pdfindex_j1to3_b0_pT0_mt2_30_13TeV
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [env_pdf_18_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_18_13TeV_exp3_f1] at boundary. 
+  [WARNING] Found [env_pdf_18_13TeV_exp3_p1] at boundary. 
+  [WARNING] Found [env_pdf_18_13TeV_exp3_p2] at boundary. 
+  [WARNING] Found [env_pdf_18_13TeV_lau1_l1] at boundary. 
+Constraints of type SimpleGaussianConstraint: 14
+Median for expected limits: 11.3438
+Sigma  for expected limits: 5.78773
+Constraints of type SimpleGaussianConstraint: 14
+Constraints of type SimpleGaussianConstraint: 14
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -0.532332 (r = 7.61329)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -0.260833 (r = 0.00482656)
+At r = 23.532231:	q_mu = 6.18972	q_A  = 14.54395	CLsb = 0.00642	CLb  = 0.90754	CLs  = 0.00708
+At r = 15.572760:	q_mu = 1.95081	q_A  = 6.97384	CLsb = 0.08125	CLb  = 0.89327	CLs  = 0.09096
+At r = 19.552496:	q_mu = 3.81383	q_A  = 10.53661	CLsb = 0.02542	CLb  = 0.90201	CLs  = 0.02818
+At r = 17.198392:	q_mu = 2.66797	q_A  = 8.36713	CLsb = 0.05119	CLb  = 0.89602	CLs  = 0.05713
+At r = 18.024532:	q_mu = 3.04585	q_A  = 9.10916	CLsb = 0.04047	CLb  = 0.89847	CLs  = 0.04505
+At r = 17.569182:	q_mu = 2.83420	q_A  = 8.69746	CLsb = 0.04614	CLb  = 0.89718	CLs  = 0.05143
+At r = 17.737580:	q_mu = 2.91151	q_A  = 8.84895	CLsb = 0.04397	CLb  = 0.89767	CLs  = 0.04899
+At r = 17.647167:	q_mu = 2.86985	q_A  = 8.76750	CLsb = 0.04513	CLb  = 0.89741	CLs  = 0.05029
+
+ -- Asymptotic -- 
+Observed Limit: r < 17.6472
+Expected  2.5%: r < 6.0485
+Expected 16.0%: r < 8.1377
+Expected 50.0%: r < 11.3438
+Expected 84.0%: r < 16.0915
+Expected 97.5%: r < 22.0582
+
+Done in 0.17 min (cpu), 0.17 min (real)

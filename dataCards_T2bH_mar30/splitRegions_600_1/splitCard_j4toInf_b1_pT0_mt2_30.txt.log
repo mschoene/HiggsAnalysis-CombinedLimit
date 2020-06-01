@@ -1,0 +1,73 @@
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Adding discrete pdfindex_j4toInf_b1_pT0_mt2_30_13TeV
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [env_pdf_27_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_27_13TeV_lau2_h1] at boundary. 
+  [WARNING] Found [env_pdf_27_13TeV_lau2_l1] at boundary. 
+Constraints of type SimpleGaussianConstraint: 15
+Median for expected limits: 1287.5
+Sigma  for expected limits: 656.9
+WARNING: underflow to -4.71668 in pdf_binch1_j4toInf_b1_pT0_mt2_30_obsOnly for bin 0, weight 1.31046
+FASTEXIT from pdf_binch1_j4toInf_b1_pT0_mt2_30_obsOnly
+[#0] WARNING:Minization -- RooMinimizerFcn: Minimized function has error status.
+Returning maximum FCN so far (23.3201) to force MIGRAD to back out of this region. Error log follows
+Parameter values: env_pdf_27_13TeV_bern1_p0=0.297273, env_pdf_27_13TeV_exp1_p1=-0.0238496, env_pdf_27_13TeV_lau1_l1=0.999998, env_pdf_27_13TeV_lau2_h1=0.639811, env_pdf_27_13TeV_lau2_l1=0.973223, env_pdf_27_13TeV_pow1_p1=-3.13221, shapeBkg_bkg_mass_ch1_j4toInf_b1_pT0_mt2_30__norm=-130.697
+RooAbsReal::ch1_j4toInf_b1_pT0_mt2_30[ params=(BR_hgg,CMS_hgg_nuisance_deltafracright,MH,btagsf_heavy_syst_2016,btagsf_heavy_syst_2017,btagsf_light_syst_2016,btagsf_light_syst_2017,env_pdf_27_13TeV_bern1_p0,env_pdf_27_13TeV_exp1_p1,env_pdf_27_13TeV_lau1_l1,env_pdf_27_13TeV_lau2_h1,env_pdf_27_13TeV_lau2_l1,env_pdf_27_13TeV_pow1_p1,gammasf_syst,genMET_syst,isr_syst,jecVar_syst,lepsf_syst,lumi_2016,lumi_2017,n_exp_binch1_j4toInf_b1_pT0_mt2_30_proc_bkg_mass,pdf_syst,r,scale_syst,shapeBkg_bkg_mass_ch1_j4toInf_b1_pT0_mt2_30__norm) ]
+     Number of events is negative or error @ params=(BR_hgg = -0.0972519 +/- 0.991057,CMS_hgg_nuisance_deltafracright = 0,MH = 125 +/- 0.00989617,btagsf_heavy_syst_2016 = 0.287121 +/- 0.985256,btagsf_heavy_syst_2017 = 0.353851 +/- 0.984041,btagsf_light_syst_2016 = 0.117889 +/- 0.992791,btagsf_light_syst_2017 = 0.168859 +/- 0.990015,env_pdf_27_13TeV_bern1_p0 = 0.297273 +/- 4.19991,env_pdf_27_13TeV_exp1_p1 = -0.0238496 +/- 0.218885,env_pdf_27_13TeV_lau1_l1 = 0.999998 +/- 0.129372,env_pdf_27_13TeV_lau2_h1 = 0.639811 +/- 0.22959,env_pdf_27_13TeV_lau2_l1 = 0.973223 +/- 0.30141,env_pdf_27_13TeV_pow1_p1 = -3.13221 +/- 4.1435,gammasf_syst = -0.185075 +/- 0.992098,genMET_syst = -1.26167 +/- 0.794475,isr_syst = 0.19674 +/- 0.980182,jecVar_syst = -0.30565 +/- 1.02352,lepsf_syst = -0.000117981 +/- 0.996602,lumi_2016 = -0.0521619 +/- 0.995834,lumi_2017 = -0.0609206 +/- 0.995645,n_exp_binch1_j4toInf_b1_pT0_mt2_30_proc_bkg_mass = 1,pdf_syst = 0.024251 +/- 0.99544,r = 2026.51 +/- 19.9891,scale_syst = 0.0591367 +/- 0.995941,shapeBkg_bkg_mass_ch1_j4toInf_b1_pT0_mt2_30__norm = -130.697 +/- 13.5542)
+
+WARNING: underflow to -11.8851 in pdf_binch1_j4toInf_b1_pT0_mt2_30_obsOnly for bin 0, weight 1.31046
+FASTEXIT from pdf_binch1_j4toInf_b1_pT0_mt2_30_obsOnly
+[#0] WARNING:Minization -- RooMinimizerFcn: Minimized function has error status.
+Returning maximum FCN so far (23.3201) to force MIGRAD to back out of this region. Error log follows
+Parameter values: env_pdf_27_13TeV_bern1_p0=0.297273, env_pdf_27_13TeV_exp1_p1=-0.0238496, env_pdf_27_13TeV_lau1_l1=0.999998, env_pdf_27_13TeV_lau2_h1=0.308784, env_pdf_27_13TeV_lau2_l1=0.995206, env_pdf_27_13TeV_pow1_p1=-3.13221, shapeBkg_bkg_mass_ch1_j4toInf_b1_pT0_mt2_30__norm=-330.014
+RooAbsReal::ch1_j4toInf_b1_pT0_mt2_30[ params=(BR_hgg,CMS_hgg_nuisance_deltafracright,MH,btagsf_heavy_syst_2016,btagsf_heavy_syst_2017,btagsf_light_syst_2016,btagsf_light_syst_2017,env_pdf_27_13TeV_bern1_p0,env_pdf_27_13TeV_exp1_p1,env_pdf_27_13TeV_lau1_l1,env_pdf_27_13TeV_lau2_h1,env_pdf_27_13TeV_lau2_l1,env_pdf_27_13TeV_pow1_p1,gammasf_syst,genMET_syst,isr_syst,jecVar_syst,lepsf_syst,lumi_2016,lumi_2017,n_exp_binch1_j4toInf_b1_pT0_mt2_30_proc_bkg_mass,pdf_syst,r,scale_syst,shapeBkg_bkg_mass_ch1_j4toInf_b1_pT0_mt2_30__norm) ]
+     Number of events is negative or error @ params=(BR_hgg = -0.0972519 +/- 0.991057,CMS_hgg_nuisance_deltafracright = 0,MH = 125 +/- 0.00989617,btagsf_heavy_syst_2016 = 0.287121 +/- 0.985256,btagsf_heavy_syst_2017 = 0.353851 +/- 0.984041,btagsf_light_syst_2016 = 0.117889 +/- 0.992791,btagsf_light_syst_2017 = 0.168859 +/- 0.990015,env_pdf_27_13TeV_bern1_p0 = 0.297273 +/- 4.19991,env_pdf_27_13TeV_exp1_p1 = -0.0238496 +/- 0.218885,env_pdf_27_13TeV_lau1_l1 = 0.999998 +/- 0.129372,env_pdf_27_13TeV_lau2_h1 = 0.308784 +/- 0.22959,env_pdf_27_13TeV_lau2_l1 = 0.995206 +/- 0.30141,env_pdf_27_13TeV_pow1_p1 = -3.13221 +/- 4.1435,gammasf_syst = -0.185075 +/- 0.992098,genMET_syst = -1.26167 +/- 0.794475,isr_syst = 0.19674 +/- 0.980182,jecVar_syst = -0.30565 +/- 1.02352,lepsf_syst = -0.000117981 +/- 0.996602,lumi_2016 = -0.0521619 +/- 0.995834,lumi_2017 = -0.0609206 +/- 0.995645,n_exp_binch1_j4toInf_b1_pT0_mt2_30_proc_bkg_mass = 1,pdf_syst = 0.024251 +/- 0.99544,r = 2026.51 +/- 19.9891,scale_syst = 0.0591367 +/- 0.995941,shapeBkg_bkg_mass_ch1_j4toInf_b1_pT0_mt2_30__norm = -330.014 +/- 13.5542)
+
+WARNING: underflow to -11.8158 in pdf_binch1_j4toInf_b1_pT0_mt2_30_obsOnly for bin 0, weight 1.31046
+FASTEXIT from pdf_binch1_j4toInf_b1_pT0_mt2_30_obsOnly
+[#0] WARNING:Minization -- RooMinimizerFcn: Minimized function has error status.
+Returning maximum FCN so far (23.3201) to force MIGRAD to back out of this region. Error log follows
+Parameter values: env_pdf_27_13TeV_bern1_p0=0.297273, env_pdf_27_13TeV_exp1_p1=-0.0238496, env_pdf_27_13TeV_lau1_l1=0.999998, env_pdf_27_13TeV_lau2_h1=0.000133484, env_pdf_27_13TeV_lau2_l1=0.581904, env_pdf_27_13TeV_pow1_p1=-3.13221, shapeBkg_bkg_mass_ch1_j4toInf_b1_pT0_mt2_30__norm=-357.907
+RooAbsReal::ch1_j4toInf_b1_pT0_mt2_30[ params=(BR_hgg,CMS_hgg_nuisance_deltafracright,MH,btagsf_heavy_syst_2016,btagsf_heavy_syst_2017,btagsf_light_syst_2016,btagsf_light_syst_2017,env_pdf_27_13TeV_bern1_p0,env_pdf_27_13TeV_exp1_p1,env_pdf_27_13TeV_lau1_l1,env_pdf_27_13TeV_lau2_h1,env_pdf_27_13TeV_lau2_l1,env_pdf_27_13TeV_pow1_p1,gammasf_syst,genMET_syst,isr_syst,jecVar_syst,lepsf_syst,lumi_2016,lumi_2017,n_exp_binch1_j4toInf_b1_pT0_mt2_30_proc_bkg_mass,pdf_syst,r,scale_syst,shapeBkg_bkg_mass_ch1_j4toInf_b1_pT0_mt2_30__norm) ]
+     Number of events is negative or error @ params=(BR_hgg = -0.0972519 +/- 0.991057,CMS_hgg_nuisance_deltafracright = 0,MH = 125 +/- 0.00989617,btagsf_heavy_syst_2016 = 0.287121 +/- 0.985256,btagsf_heavy_syst_2017 = 0.353851 +/- 0.984041,btagsf_light_syst_2016 = 0.117889 +/- 0.992791,btagsf_light_syst_2017 = 0.168859 +/- 0.990015,env_pdf_27_13TeV_bern1_p0 = 0.297273 +/- 4.19991,env_pdf_27_13TeV_exp1_p1 = -0.0238496 +/- 0.218885,env_pdf_27_13TeV_lau1_l1 = 0.999998 +/- 0.129372,env_pdf_27_13TeV_lau2_h1 = 0.000133484 +/- 0.22959,env_pdf_27_13TeV_lau2_l1 = 0.581904 +/- 0.30141,env_pdf_27_13TeV_pow1_p1 = -3.13221 +/- 4.1435,gammasf_syst = -0.185075 +/- 0.992098,genMET_syst = -1.26167 +/- 0.794475,isr_syst = 0.19674 +/- 0.980182,jecVar_syst = -0.30565 +/- 1.02352,lepsf_syst = -0.000117981 +/- 0.996602,lumi_2016 = -0.0521619 +/- 0.995834,lumi_2017 = -0.0609206 +/- 0.995645,n_exp_binch1_j4toInf_b1_pT0_mt2_30_proc_bkg_mass = 1,pdf_syst = 0.024251 +/- 0.99544,r = 2026.51 +/- 19.9891,scale_syst = 0.0591367 +/- 0.995941,shapeBkg_bkg_mass_ch1_j4toInf_b1_pT0_mt2_30__norm = -357.907 +/- 13.5542)
+
+WARNING: underflow to -1.56578 in pdf_binch1_j4toInf_b1_pT0_mt2_30_obsOnly for bin 0, weight 1.31046
+FASTEXIT from pdf_binch1_j4toInf_b1_pT0_mt2_30_obsOnly
+[#0] WARNING:Minization -- RooMinimizerFcn: Minimized function has error status.
+Returning maximum FCN so far (23.3201) to force MIGRAD to back out of this region. Error log follows
+Parameter values: env_pdf_27_13TeV_bern1_p0=0.297273, env_pdf_27_13TeV_exp1_p1=-0.0238496, env_pdf_27_13TeV_lau1_l1=0.999998, env_pdf_27_13TeV_lau2_h1=0.259652, env_pdf_27_13TeV_lau2_l1=0.905509, env_pdf_27_13TeV_pow1_p1=-3.13221, shapeBkg_bkg_mass_ch1_j4toInf_b1_pT0_mt2_30__norm=-43.8573
+RooAbsReal::ch1_j4toInf_b1_pT0_mt2_30[ params=(BR_hgg,CMS_hgg_nuisance_deltafracright,MH,btagsf_heavy_syst_2016,btagsf_heavy_syst_2017,btagsf_light_syst_2016,btagsf_light_syst_2017,env_pdf_27_13TeV_bern1_p0,env_pdf_27_13TeV_exp1_p1,env_pdf_27_13TeV_lau1_l1,env_pdf_27_13TeV_lau2_h1,env_pdf_27_13TeV_lau2_l1,env_pdf_27_13TeV_pow1_p1,gammasf_syst,genMET_syst,isr_syst,jecVar_syst,lepsf_syst,lumi_2016,lumi_2017,n_exp_binch1_j4toInf_b1_pT0_mt2_30_proc_bkg_mass,pdf_syst,r,scale_syst,shapeBkg_bkg_mass_ch1_j4toInf_b1_pT0_mt2_30__norm) ]
+     Number of events is negative or error @ params=(BR_hgg = -0.0972519 +/- 0.991057,CMS_hgg_nuisance_deltafracright = 0,MH = 125 +/- 0.00989617,btagsf_heavy_syst_2016 = 0.287121 +/- 0.985256,btagsf_heavy_syst_2017 = 0.353851 +/- 0.984041,btagsf_light_syst_2016 = 0.117889 +/- 0.992791,btagsf_light_syst_2017 = 0.168859 +/- 0.990015,env_pdf_27_13TeV_bern1_p0 = 0.297273 +/- 4.19991,env_pdf_27_13TeV_exp1_p1 = -0.0238496 +/- 0.218885,env_pdf_27_13TeV_lau1_l1 = 0.999998 +/- 0.129372,env_pdf_27_13TeV_lau2_h1 = 0.259652 +/- 0.22959,env_pdf_27_13TeV_lau2_l1 = 0.905509 +/- 0.30141,env_pdf_27_13TeV_pow1_p1 = -3.13221 +/- 4.1435,gammasf_syst = -0.185075 +/- 0.992098,genMET_syst = -1.26167 +/- 0.794475,isr_syst = 0.19674 +/- 0.980182,jecVar_syst = -0.30565 +/- 1.02352,lepsf_syst = -0.000117981 +/- 0.996602,lumi_2016 = -0.0521619 +/- 0.995834,lumi_2017 = -0.0609206 +/- 0.995645,n_exp_binch1_j4toInf_b1_pT0_mt2_30_proc_bkg_mass = 1,pdf_syst = 0.024251 +/- 0.99544,r = 2026.51 +/- 19.9891,scale_syst = 0.0591367 +/- 0.995941,shapeBkg_bkg_mass_ch1_j4toInf_b1_pT0_mt2_30__norm = -43.8573 +/- 13.5542)
+
+Constraints of type SimpleGaussianConstraint: 15
+Constraints of type SimpleGaussianConstraint: 15
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -1.79632 (r = 0.000129412)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -0.353643 (r = 0.00455738)
+At r = 375.055705:	q_mu = 2.90046	q_A  = 0.55613	CLsb = 0.01024	CLb  = 0.05800	CLs  = 0.17651
+At r = 750.111411:	q_mu = 5.71651	q_A  = 1.68175	CLsb = 0.00217	CLb  = 0.05990	CLs  = 0.03621
+At r = 375.055770:	q_mu = 2.90046	q_A  = 0.55613	CLsb = 0.01024	CLb  = 0.05800	CLs  = 0.17651
+At r = 562.583590:	q_mu = 4.32492	q_A  = 1.06400	CLsb = 0.00450	CLb  = 0.05698	CLs  = 0.07895
+At r = 650.515193:	q_mu = 4.98185	q_A  = 1.34019	CLsb = 0.00316	CLb  = 0.05788	CLs  = 0.05463
+At r = 687.595679:	q_mu = 5.25656	q_A  = 1.46411	CLsb = 0.00274	CLb  = 0.05854	CLs  = 0.04684
+At r = 667.587442:	q_mu = 5.10851	q_A  = 1.39674	CLsb = 0.00296	CLb  = 0.05817	CLs  = 0.05089
+At r = 674.986298:	q_mu = 5.16330	q_A  = 1.42152	CLsb = 0.00288	CLb  = 0.05830	CLs  = 0.04935
+At r = 670.981177:	q_mu = 5.13365	q_A  = 1.40808	CLsb = 0.00292	CLb  = 0.05823	CLs  = 0.05018
+At r = 672.460258:	q_mu = 5.14460	q_A  = 1.41304	CLsb = 0.00291	CLb  = 0.05826	CLs  = 0.04987
+
+ -- Asymptotic -- 
+Observed Limit: r < 672.4603
+Expected  2.5%: r < 585.9131
+Expected 16.0%: r < 835.3053
+Expected 50.0%: r < 1287.5000
+Expected 84.0%: r < 2098.3608
+Expected 97.5%: r < 3389.9485
+
+Done in 0.94 min (cpu), 0.94 min (real)

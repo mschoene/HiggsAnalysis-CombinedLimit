@@ -1,0 +1,41 @@
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Adding discrete pdfindex_j1to3_b1_pT1_mt2_0_13TeV
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [env_pdf_7_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_7_13TeV_exp3_f1] at boundary. 
+  [WARNING] Found [env_pdf_7_13TeV_exp3_p1] at boundary. 
+  [WARNING] Found [env_pdf_7_13TeV_exp3_p2] at boundary. 
+  [WARNING] Found [env_pdf_7_13TeV_lau1_l1] at boundary. 
+Constraints of type SimpleGaussianConstraint: 14
+Median for expected limits: 174.25
+Sigma  for expected limits: 88.9047
+Constraints of type SimpleGaussianConstraint: 14
+Constraints of type SimpleGaussianConstraint: 14
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -0.597076 (r = 64.0319)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -0.671223 (r = 0.101598)
+At r = 274.169752:	q_mu = 5.11805	q_A  = 8.85844	CLsb = 0.01184	CLb  = 0.76239	CLs  = 0.01553
+At r = 169.100815:	q_mu = 1.37657	q_A  = 3.62628	CLsb = 0.12034	CLb  = 0.76761	CLs  = 0.15678
+At r = 221.635284:	q_mu = 2.99125	q_A  = 6.01409	CLsb = 0.04186	CLb  = 0.76511	CLs  = 0.05471
+At r = 235.145463:	q_mu = 3.49256	q_A  = 6.70524	CLsb = 0.03082	CLb  = 0.76442	CLs  = 0.04032
+At r = 227.524850:	q_mu = 3.20563	q_A  = 6.31169	CLsb = 0.03669	CLb  = 0.76482	CLs  = 0.04798
+At r = 224.864068:	q_mu = 3.10798	q_A  = 6.17653	CLsb = 0.03895	CLb  = 0.76495	CLs  = 0.05092
+At r = 226.050073:	q_mu = 3.15134	q_A  = 6.23663	CLsb = 0.03793	CLb  = 0.76489	CLs  = 0.04959
+At r = 225.519606:	q_mu = 3.13191	q_A  = 6.20972	CLsb = 0.03839	CLb  = 0.76492	CLs  = 0.05018
+
+ -- Asymptotic -- 
+Observed Limit: r < 225.5196
+Expected  2.5%: r < 92.2300
+Expected 16.0%: r < 123.9487
+Expected 50.0%: r < 174.2500
+Expected 84.0%: r < 248.5688
+Expected 97.5%: r < 341.9692
+
+Done in 0.63 min (cpu), 0.63 min (real)

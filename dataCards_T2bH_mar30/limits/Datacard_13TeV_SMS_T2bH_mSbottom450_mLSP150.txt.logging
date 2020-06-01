@@ -1,0 +1,276 @@
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Adding discrete pdfindex_j1to3_b0_pT0_mt2_0_13TeV
+Adding discrete pdfindex_j1to3_b0_pT1_mt2_0_13TeV
+Adding discrete pdfindex_j1to3_b0_pT2_mt2_0_13TeV
+Adding discrete pdfindex_j4toInf_b0_pT0_mt2_0_13TeV
+Adding discrete pdfindex_j4toInf_b0_pT1_mt2_0_13TeV
+Adding discrete pdfindex_j4toInf_b0_pT2_mt2_0_13TeV
+Adding discrete pdfindex_j1to3_b1_pT0_mt2_0_13TeV
+Adding discrete pdfindex_j1to3_b1_pT1_mt2_0_13TeV
+Adding discrete pdfindex_j1to3_b1_pT2_mt2_0_13TeV
+Adding discrete pdfindex_j4toInf_b1_pT0_mt2_0_13TeV
+Adding discrete pdfindex_j4toInf_b1_pT1_mt2_0_13TeV
+Adding discrete pdfindex_j4toInf_b1_pT2_mt2_0_13TeV
+Adding discrete pdfindex_j1to3_b2toInf_pT0_mt2_0_13TeV
+Adding discrete pdfindex_j1to3_b2toInf_pT1_mt2_0_13TeV
+Adding discrete pdfindex_j1to3_b2toInf_pT2_mt2_0_13TeV
+Adding discrete pdfindex_j4toInf_b2toInf_pT0_mt2_0_13TeV
+Adding discrete pdfindex_j4toInf_b2toInf_pT1_mt2_0_13TeV
+Adding discrete pdfindex_j4toInf_b2toInf_pT2_mt2_0_13TeV
+Adding discrete pdfindex_j1to3_b0_pT0_mt2_30_13TeV
+Adding discrete pdfindex_j1to3_b0_pT1_mt2_30_13TeV
+Adding discrete pdfindex_j1to3_b0_pT2_mt2_30_13TeV
+Adding discrete pdfindex_j4toInf_b0_pT0_mt2_30_13TeV
+Adding discrete pdfindex_j4toInf_b0_pT1_mt2_30_13TeV
+Adding discrete pdfindex_j4toInf_b0_pT2_mt2_30_13TeV
+Adding discrete pdfindex_j1to3_b1_pT0_mt2_30_13TeV
+Adding discrete pdfindex_j1to3_b1_pT1_mt2_30_13TeV
+Adding discrete pdfindex_j1to3_b1_pT2_mt2_30_13TeV
+Adding discrete pdfindex_j4toInf_b1_pT0_mt2_30_13TeV
+Adding discrete pdfindex_j4toInf_b1_pT1_mt2_30_13TeV
+Adding discrete pdfindex_j4toInf_b1_pT2_mt2_30_13TeV
+Adding discrete pdfindex_j1to3_b2toInf_pT0_mt2_30_13TeV
+Adding discrete pdfindex_j1to3_b2toInf_pT1_mt2_30_13TeV
+Adding discrete pdfindex_j1to3_b2toInf_pT2_mt2_30_13TeV
+Adding discrete pdfindex_j4toInf_b2toInf_pT0_mt2_30_13TeV
+Adding discrete pdfindex_j4toInf_b2toInf_pT1_mt2_30_13TeV
+Adding discrete pdfindex_j4toInf_b2toInf_pT2_mt2_30_13TeV
+Adding discrete pdfindex_is1El_pT0_mt2_0_13TeV
+Adding discrete pdfindex_is1Mu_pT0_mt2_0_13TeV
+Adding discrete pdfindex_is1El_pT0_mt2_30_13TeV
+Adding discrete pdfindex_is1Mu_pT0_mt2_30_13TeV
+Adding discrete pdfindex_is1El_pT1_mt2_0_13TeV
+Adding discrete pdfindex_is1Mu_pT1_mt2_0_13TeV
+Adding discrete pdfindex_is1El_pT1_mt2_30_13TeV
+Adding discrete pdfindex_is1Mu_pT1_mt2_30_13TeV
+Adding discrete pdfindex_is1El_pT2_mt2_0_13TeV
+Adding discrete pdfindex_is1Mu_pT2_mt2_0_13TeV
+Adding discrete pdfindex_is1El_pT2_mt2_30_13TeV
+Adding discrete pdfindex_is1Mu_pT2_mt2_30_13TeV
+Adding discrete pdfindex_diBBZ_pT0_mt2_0_13TeV
+Adding discrete pdfindex_diBBZ_pT1_mt2_0_13TeV
+Adding discrete pdfindex_diBBZ_pT2_mt2_0_13TeV
+Adding discrete pdfindex_diBBH_pT0_mt2_0_13TeV
+Adding discrete pdfindex_diBBH_pT1_mt2_0_13TeV
+Adding discrete pdfindex_diBBH_pT2_mt2_0_13TeV
+Adding discrete pdfindex_diBBZ_pT0_mt2_30_13TeV
+Adding discrete pdfindex_diBBZ_pT1_mt2_30_13TeV
+Adding discrete pdfindex_diBBZ_pT2_mt2_30_13TeV
+Adding discrete pdfindex_diBBH_pT0_mt2_30_13TeV
+Adding discrete pdfindex_diBBH_pT1_mt2_30_13TeV
+Adding discrete pdfindex_diBBH_pT2_mt2_30_13TeV
+Adding discrete pdfindex_diLepZ_13TeV
+Adding discrete pdfindex_j0_b0toInf_pT0_13TeV
+Adding discrete pdfindex_j0_b0toInf_pT1_13TeV
+Adding discrete pdfindex_j0_b0toInf_pT2_13TeV
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [env_pdf_0_13TeV_exp3_f1] at boundary. 
+  [WARNING] Found [env_pdf_0_13TeV_exp3_p1] at boundary. 
+  [WARNING] Found [env_pdf_0_13TeV_exp3_p2] at boundary. 
+  [WARNING] Found [env_pdf_0_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_1_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_1_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_1_13TeV_pow1_p1] at boundary. 
+  [WARNING] Found [env_pdf_2_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_2_13TeV_exp3_f1] at boundary. 
+  [WARNING] Found [env_pdf_2_13TeV_exp3_p1] at boundary. 
+  [WARNING] Found [env_pdf_2_13TeV_exp3_p2] at boundary. 
+  [WARNING] Found [env_pdf_2_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_3_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_3_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_3_13TeV_lau2_h1] at boundary. 
+  [WARNING] Found [env_pdf_3_13TeV_lau2_l1] at boundary. 
+  [WARNING] Found [env_pdf_4_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_4_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_4_13TeV_lau2_h1] at boundary. 
+  [WARNING] Found [env_pdf_4_13TeV_lau2_l1] at boundary. 
+  [WARNING] Found [env_pdf_4_13TeV_pow1_p1] at boundary. 
+  [WARNING] Found [env_pdf_5_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_5_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_6_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_7_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_7_13TeV_exp3_f1] at boundary. 
+  [WARNING] Found [env_pdf_7_13TeV_exp3_p1] at boundary. 
+  [WARNING] Found [env_pdf_7_13TeV_exp3_p2] at boundary. 
+  [WARNING] Found [env_pdf_7_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_8_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_8_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_8_13TeV_pow1_p1] at boundary. 
+  [WARNING] Found [env_pdf_9_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_9_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_10_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_10_13TeV_lau2_h1] at boundary. 
+  [WARNING] Found [env_pdf_10_13TeV_lau2_l1] at boundary. 
+  [WARNING] Found [env_pdf_11_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_11_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_12_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_12_13TeV_exp3_f1] at boundary. 
+  [WARNING] Found [env_pdf_12_13TeV_exp3_p1] at boundary. 
+  [WARNING] Found [env_pdf_12_13TeV_exp3_p2] at boundary. 
+  [WARNING] Found [env_pdf_13_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_14_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_14_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_15_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_15_13TeV_exp3_p1] at boundary. 
+  [WARNING] Found [env_pdf_15_13TeV_exp3_p2] at boundary. 
+  [WARNING] Found [env_pdf_15_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_15_13TeV_lau2_h1] at boundary. 
+  [WARNING] Found [env_pdf_15_13TeV_lau2_l1] at boundary. 
+  [WARNING] Found [env_pdf_16_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_16_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_17_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_17_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_18_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_18_13TeV_exp3_f1] at boundary. 
+  [WARNING] Found [env_pdf_18_13TeV_exp3_p1] at boundary. 
+  [WARNING] Found [env_pdf_18_13TeV_exp3_p2] at boundary. 
+  [WARNING] Found [env_pdf_18_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_19_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_19_13TeV_exp3_f1] at boundary. 
+  [WARNING] Found [env_pdf_19_13TeV_exp3_p1] at boundary. 
+  [WARNING] Found [env_pdf_19_13TeV_exp3_p2] at boundary. 
+  [WARNING] Found [env_pdf_19_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_20_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_20_13TeV_pow1_p1] at boundary. 
+  [WARNING] Found [env_pdf_21_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_21_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_22_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_23_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_23_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_24_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_25_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_25_13TeV_exp3_f1] at boundary. 
+  [WARNING] Found [env_pdf_25_13TeV_exp3_p1] at boundary. 
+  [WARNING] Found [env_pdf_25_13TeV_exp3_p2] at boundary. 
+  [WARNING] Found [env_pdf_25_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_26_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_26_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_27_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_27_13TeV_lau2_h1] at boundary. 
+  [WARNING] Found [env_pdf_27_13TeV_lau2_l1] at boundary. 
+  [WARNING] Found [env_pdf_28_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_28_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_28_13TeV_lau2_h1] at boundary. 
+  [WARNING] Found [env_pdf_28_13TeV_lau2_l1] at boundary. 
+  [WARNING] Found [env_pdf_29_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_29_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_30_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_30_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_31_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_31_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_32_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_32_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_33_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_34_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_34_13TeV_exp3_p2] at boundary. 
+  [WARNING] Found [env_pdf_34_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_34_13TeV_lau2_h1] at boundary. 
+  [WARNING] Found [env_pdf_34_13TeV_lau2_l1] at boundary. 
+  [WARNING] Found [env_pdf_34_13TeV_pow1_p1] at boundary. 
+  [WARNING] Found [env_pdf_35_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_35_13TeV_pow1_p1] at boundary. 
+  [WARNING] Found [env_pdf_36_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_37_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_37_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_38_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_38_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_38_13TeV_lau2_h1] at boundary. 
+  [WARNING] Found [env_pdf_38_13TeV_lau2_l1] at boundary. 
+  [WARNING] Found [env_pdf_38_13TeV_pow1_p1] at boundary. 
+  [WARNING] Found [env_pdf_39_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_40_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_40_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_41_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_41_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_41_13TeV_lau2_h1] at boundary. 
+  [WARNING] Found [env_pdf_41_13TeV_lau2_l1] at boundary. 
+  [WARNING] Found [env_pdf_41_13TeV_pow1_p1] at boundary. 
+  [WARNING] Found [env_pdf_42_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_42_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_42_13TeV_pow1_p1] at boundary. 
+  [WARNING] Found [env_pdf_43_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_44_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_44_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_45_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_45_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_46_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_46_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_47_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_48_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_48_13TeV_exp3_f1] at boundary. 
+  [WARNING] Found [env_pdf_48_13TeV_exp3_p1] at boundary. 
+  [WARNING] Found [env_pdf_48_13TeV_exp3_p2] at boundary. 
+  [WARNING] Found [env_pdf_48_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_49_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_49_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_49_13TeV_pow1_p1] at boundary. 
+  [WARNING] Found [env_pdf_50_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_50_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_51_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_51_13TeV_exp3_f1] at boundary. 
+  [WARNING] Found [env_pdf_51_13TeV_exp3_p1] at boundary. 
+  [WARNING] Found [env_pdf_51_13TeV_exp3_p2] at boundary. 
+  [WARNING] Found [env_pdf_52_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_52_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_53_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_53_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_54_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_55_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_55_13TeV_pow1_p1] at boundary. 
+  [WARNING] Found [env_pdf_56_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_56_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_57_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_57_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_57_13TeV_lau2_h1] at boundary. 
+  [WARNING] Found [env_pdf_57_13TeV_lau2_l1] at boundary. 
+  [WARNING] Found [env_pdf_58_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_59_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_60_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_60_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_60_13TeV_pow1_p1] at boundary. 
+  [WARNING] Found [env_pdf_61_13TeV_exp3_p1] at boundary. 
+  [WARNING] Found [env_pdf_61_13TeV_exp3_p2] at boundary. 
+  [WARNING] Found [env_pdf_61_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_61_13TeV_pow1_p1] at boundary. 
+  [WARNING] Found [env_pdf_62_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_62_13TeV_exp3_p1] at boundary. 
+  [WARNING] Found [env_pdf_62_13TeV_exp3_p2] at boundary. 
+  [WARNING] Found [env_pdf_62_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_62_13TeV_pow1_p1] at boundary. 
+  [WARNING] Found [env_pdf_63_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_63_13TeV_exp3_f1] at boundary. 
+  [WARNING] Found [env_pdf_63_13TeV_exp3_p1] at boundary. 
+  [WARNING] Found [env_pdf_63_13TeV_exp3_p2] at boundary. 
+  [WARNING] Found [env_pdf_63_13TeV_lau1_l1] at boundary. 
+Constraints of type SimpleGaussianConstraint: 15
+Median for expected limits: 0.427734
+Sigma  for expected limits: 0.218236
+Constraints of type SimpleGaussianConstraint: 15
+Constraints of type SimpleGaussianConstraint: 15
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -39.6077 (r = 0.321558)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -45.5498 (r = 2.2517e-07)
+At r = 0.621558:	q_mu = 1.17030	q_A  = 6.92224	CLsb = 0.13967	CLb  = 0.93933	CLs  = 0.14869
+At r = 0.769575:	q_mu = 2.37516	q_A  = 9.58416	CLsb = 0.06164	CLb  = 0.93999	CLs  = 0.06557
+At r = 0.834734:	q_mu = 3.00217	q_A  = 10.82545	CLsb = 0.04158	CLb  = 0.94033	CLs  = 0.04421
+At r = 0.805440:	q_mu = 2.71357	q_A  = 10.26250	CLsb = 0.04975	CLb  = 0.94017	CLs  = 0.05291
+At r = 0.818691:	q_mu = 2.84279	q_A  = 10.51618	CLsb = 0.04589	CLb  = 0.94024	CLs  = 0.04881
+At r = 0.812877:	q_mu = 2.78581	q_A  = 10.40466	CLsb = 0.04755	CLb  = 0.94021	CLs  = 0.05058
+At r = 0.815536:	q_mu = 2.81182	q_A  = 10.45562	CLsb = 0.04679	CLb  = 0.94023	CLs  = 0.04976
+
+ -- Asymptotic -- 
+Observed Limit: r < 0.8155
+Expected  2.5%: r < 0.2047
+Expected 16.0%: r < 0.2892
+Expected 50.0%: r < 0.4277
+Expected 84.0%: r < 0.6511
+Expected 97.5%: r < 0.9480
+
+Done in 800.42 min (cpu), 801.47 min (real)

@@ -1,0 +1,40 @@
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Adding discrete pdfindex_is1Mu_pT0_mt2_30_13TeV
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [env_pdf_39_13TeV_lau1_l1] at boundary. 
+Constraints of type SimpleGaussianConstraint: 15
+Median for expected limits: 9.65625
+Sigma  for expected limits: 4.92675
+Constraints of type SimpleGaussianConstraint: 15
+Constraints of type SimpleGaussianConstraint: 15
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -0.211393 (r = 0)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -0.238855 (r = 0.00019456)
+At r = 71.661883:	q_mu = 60.19302	q_A  = 59.18927	CLsb = 0.00000	CLb  = 0.47399	CLs  = 0.00000
+At r = 35.830941:	q_mu = 26.77534	q_A  = 26.08647	CLsb = 0.00000	CLb  = 0.47312	CLs  = 0.00000
+At r = 17.915471:	q_mu = 10.43784	q_A  = 10.04634	CLsb = 0.00062	CLb  = 0.47538	CLs  = 0.00130
+At r = 8.957735:	q_mu = 3.53713	q_A  = 3.37558	CLsb = 0.02997	CLb  = 0.48247	CLs  = 0.06212
+At r = 13.436603:	q_mu = 6.77830	q_A  = 6.49233	CLsb = 0.00461	CLb  = 0.47762	CLs  = 0.00964
+At r = 11.197169:	q_mu = 5.09032	q_A  = 4.86394	CLsb = 0.01201	CLb  = 0.47953	CLs  = 0.02505
+At r = 9.833692:	q_mu = 4.12602	q_A  = 3.93846	CLsb = 0.02109	CLb  = 0.48116	CLs  = 0.04382
+At r = 9.393677:	q_mu = 3.82696	q_A  = 3.65237	CLsb = 0.02519	CLb  = 0.48178	CLs  = 0.05228
+At r = 9.570541:	q_mu = 3.94640	q_A  = 3.76658	CLsb = 0.02346	CLb  = 0.48152	CLs  = 0.04871
+At r = 9.482869:	q_mu = 3.88707	q_A  = 3.70983	CLsb = 0.02430	CLb  = 0.48165	CLs  = 0.05045
+At r = 9.518309:	q_mu = 3.91102	q_A  = 3.73274	CLsb = 0.02395	CLb  = 0.48160	CLs  = 0.04974
+
+ -- Asymptotic -- 
+Observed Limit: r < 9.5183
+Expected  2.5%: r < 4.7338
+Expected 16.0%: r < 6.5797
+Expected 50.0%: r < 9.6562
+Expected 84.0%: r < 14.6215
+Expected 97.5%: r < 21.4741
+
+Done in 0.05 min (cpu), 0.05 min (real)

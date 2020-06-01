@@ -1,0 +1,44 @@
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Adding discrete pdfindex_diBBH_pT0_mt2_30_13TeV
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [env_pdf_57_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_57_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_57_13TeV_lau2_h1] at boundary. 
+  [WARNING] Found [env_pdf_57_13TeV_lau2_l1] at boundary. 
+Constraints of type SimpleGaussianConstraint: 15
+Median for expected limits: 29.375
+Sigma  for expected limits: 14.9875
+Constraints of type SimpleGaussianConstraint: 15
+Constraints of type SimpleGaussianConstraint: 15
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -0.624815 (r = 4.86642e-11)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -0.640208 (r = 0.00014222)
+At r = 261.170207:	q_mu = 19.35705	q_A  = 20.74255	CLsb = 0.00001	CLb  = 0.56148	CLs  = 0.00001
+At r = 130.585104:	q_mu = 12.49426	q_A  = 13.51756	CLsb = 0.00020	CLb  = 0.55642	CLs  = 0.00037
+At r = 65.292552:	q_mu = 7.45064	q_A  = 8.08461	CLsb = 0.00317	CLb  = 0.54529	CLs  = 0.00581
+At r = 32.646276:	q_mu = 4.08457	q_A  = 4.30067	CLsb = 0.02164	CLb  = 0.52104	CLs  = 0.04153
+At r = 16.323138:	q_mu = 1.90688	q_A  = 1.95347	CLsb = 0.08366	CLb  = 0.50669	CLs  = 0.16510
+At r = 24.484707:	q_mu = 3.08999	q_A  = 3.16743	CLsb = 0.03939	CLb  = 0.50873	CLs  = 0.07742
+At r = 29.068078:	q_mu = 3.72232	q_A  = 3.81448	CLsb = 0.02684	CLb  = 0.50947	CLs  = 0.05269
+At r = 30.414189:	q_mu = 3.82741	q_A  = 3.99932	CLsb = 0.02521	CLb  = 0.51733	CLs  = 0.04873
+At r = 29.790821:	q_mu = 3.75507	q_A  = 3.91402	CLsb = 0.02632	CLb  = 0.51619	CLs  = 0.05100
+At r = 30.132130:	q_mu = 3.79471	q_A  = 3.96079	CLsb = 0.02571	CLb  = 0.51682	CLs  = 0.04974
+At r = 30.007093:	q_mu = 3.78019	q_A  = 3.94367	CLsb = 0.02593	CLb  = 0.51659	CLs  = 0.05020
+At r = 30.075282:	q_mu = 3.78811	q_A  = 3.95301	CLsb = 0.02581	CLb  = 0.51672	CLs  = 0.04995
+
+ -- Asymptotic -- 
+Observed Limit: r < 30.0753
+Expected  2.5%: r < 10.9296
+Expected 16.0%: r < 16.6217
+Expected 50.0%: r < 29.3750
+Expected 84.0%: r < 58.6475
+Expected 97.5%: r < 89.0854
+
+Done in 0.13 min (cpu), 0.13 min (real)

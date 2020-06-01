@@ -1,0 +1,40 @@
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Adding discrete pdfindex_is1El_pT1_mt2_0_13TeV
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [env_pdf_40_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_40_13TeV_lau1_l1] at boundary. 
+Constraints of type SimpleGaussianConstraint: 15
+Median for expected limits: 50.25
+Sigma  for expected limits: 25.6382
+Constraints of type SimpleGaussianConstraint: 15
+Constraints of type SimpleGaussianConstraint: 15
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -1.094 (r = 0)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -0.180459 (r = 0.00134637)
+At r = 18.640504:	q_mu = 3.29372	q_A  = 0.66661	CLsb = 0.00765	CLb  = 0.05383	CLs  = 0.14209
+At r = 37.281008:	q_mu = 7.05594	q_A  = 2.32308	CLsb = 0.00105	CLb  = 0.06026	CLs  = 0.01736
+At r = 18.640504:	q_mu = 3.29372	q_A  = 0.66661	CLsb = 0.00765	CLb  = 0.05383	CLs  = 0.14209
+At r = 29.777731:	q_mu = 5.50126	q_A  = 1.56390	CLsb = 0.00237	CLb  = 0.05772	CLs  = 0.04099
+At r = 26.125472:	q_mu = 4.76261	q_A  = 1.23674	CLsb = 0.00349	CLb  = 0.05646	CLs  = 0.06190
+At r = 27.638673:	q_mu = 5.06707	q_A  = 1.36867	CLsb = 0.00297	CLb  = 0.05698	CLs  = 0.05221
+At r = 28.372042:	q_mu = 5.21543	q_A  = 1.43447	CLsb = 0.00275	CLb  = 0.05723	CLs  = 0.04806
+At r = 27.944804:	q_mu = 5.12894	q_A  = 1.39599	CLsb = 0.00288	CLb  = 0.05709	CLs  = 0.05044
+At r = 28.091595:	q_mu = 5.15863	q_A  = 1.40917	CLsb = 0.00283	CLb  = 0.05714	CLs  = 0.04961
+At r = 28.006171:	q_mu = 5.14135	q_A  = 1.40149	CLsb = 0.00286	CLb  = 0.05711	CLs  = 0.05009
+
+ -- Asymptotic -- 
+Observed Limit: r < 28.0062
+Expected  2.5%: r < 24.8306
+Expected 16.0%: r < 34.2636
+Expected 50.0%: r < 50.2500
+Expected 84.0%: r < 74.8867
+Expected 97.5%: r < 109.2794
+
+Done in 0.12 min (cpu), 0.12 min (real)

@@ -1,0 +1,37 @@
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Adding discrete pdfindex_j1to3_b2toInf_pT1_mt2_0_13TeV
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [env_pdf_13_13TeV_exp1_p1] at boundary. 
+Constraints of type SimpleGaussianConstraint: 15
+Median for expected limits: 139.25
+Sigma  for expected limits: 71.0472
+Constraints of type SimpleGaussianConstraint: 15
+Constraints of type SimpleGaussianConstraint: 15
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -0.0640891 (r = 26.3749)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -0.193336 (r = 0.0134464)
+At r = 204.760193:	q_mu = 5.42577	q_A  = 7.39600	CLsb = 0.00992	CLb  = 0.65182	CLs  = 0.01522
+At r = 115.567557:	q_mu = 1.58606	q_A  = 2.75384	CLsb = 0.10395	CLb  = 0.65545	CLs  = 0.15859
+At r = 160.163875:	q_mu = 3.29971	q_A  = 4.89161	CLsb = 0.03465	CLb  = 0.65365	CLs  = 0.05300
+At r = 170.751511:	q_mu = 3.77175	q_A  = 5.45739	CLsb = 0.02606	CLb  = 0.65321	CLs  = 0.03990
+At r = 164.021476:	q_mu = 3.46911	q_A  = 5.09546	CLsb = 0.03126	CLb  = 0.65349	CLs  = 0.04784
+At r = 161.920216:	q_mu = 3.37646	q_A  = 4.98409	CLsb = 0.03307	CLb  = 0.65358	CLs  = 0.05059
+At r = 162.695032:	q_mu = 3.41052	q_A  = 5.02507	CLsb = 0.03239	CLb  = 0.65354	CLs  = 0.04956
+At r = 162.275441:	q_mu = 3.39206	q_A  = 5.00286	CLsb = 0.03276	CLb  = 0.65356	CLs  = 0.05012
+
+ -- Asymptotic -- 
+Observed Limit: r < 162.2754
+Expected  2.5%: r < 71.5288
+Expected 16.0%: r < 96.9243
+Expected 50.0%: r < 139.2500
+Expected 84.0%: r < 205.3017
+Expected 97.5%: r < 293.0678
+
+Done in 0.25 min (cpu), 0.25 min (real)

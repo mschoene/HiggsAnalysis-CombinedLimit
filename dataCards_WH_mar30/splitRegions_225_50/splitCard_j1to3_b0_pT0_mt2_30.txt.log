@@ -1,0 +1,41 @@
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Adding discrete pdfindex_j1to3_b0_pT0_mt2_30_13TeV
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [env_pdf_18_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_18_13TeV_exp3_f1] at boundary. 
+  [WARNING] Found [env_pdf_18_13TeV_exp3_p1] at boundary. 
+  [WARNING] Found [env_pdf_18_13TeV_exp3_p2] at boundary. 
+  [WARNING] Found [env_pdf_18_13TeV_lau1_l1] at boundary. 
+Constraints of type SimpleGaussianConstraint: 14
+Median for expected limits: 23.4375
+Sigma  for expected limits: 11.9581
+Constraints of type SimpleGaussianConstraint: 14
+Constraints of type SimpleGaussianConstraint: 14
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -0.562435 (r = 16.0927)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -0.260454 (r = 0.00987717)
+At r = 48.641483:	q_mu = 6.06486	q_A  = 14.74505	CLsb = 0.00689	CLb  = 0.91578	CLs  = 0.00753
+At r = 32.367091:	q_mu = 1.92309	q_A  = 7.08596	CLsb = 0.08276	CLb  = 0.89888	CLs  = 0.09207
+At r = 40.504287:	q_mu = 3.71359	q_A  = 10.68320	CLsb = 0.02699	CLb  = 0.91011	CLs  = 0.02965
+At r = 35.874689:	q_mu = 2.62658	q_A  = 8.57162	CLsb = 0.05254	CLb  = 0.90440	CLs  = 0.05810
+At r = 37.627123:	q_mu = 3.01467	q_A  = 9.35183	CLsb = 0.04126	CLb  = 0.90688	CLs  = 0.04549
+At r = 36.735174:	q_mu = 2.81346	q_A  = 8.95170	CLsb = 0.04674	CLb  = 0.90568	CLs  = 0.05161
+At r = 37.092489:	q_mu = 2.89315	q_A  = 9.11125	CLsb = 0.04448	CLb  = 0.90617	CLs  = 0.04908
+At r = 36.915512:	q_mu = 2.85352	q_A  = 9.03210	CLsb = 0.04559	CLb  = 0.90593	CLs  = 0.05032
+
+ -- Asymptotic -- 
+Observed Limit: r < 36.9155
+Expected  2.5%: r < 12.5885
+Expected 16.0%: r < 16.7840
+Expected 50.0%: r < 23.4375
+Expected 84.0%: r < 33.2469
+Expected 97.5%: r < 45.2777
+
+Done in 0.17 min (cpu), 0.18 min (real)

@@ -1,0 +1,43 @@
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Adding discrete pdfindex_diBBH_pT0_mt2_30_13TeV
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [env_pdf_57_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_57_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_57_13TeV_lau2_h1] at boundary. 
+  [WARNING] Found [env_pdf_57_13TeV_lau2_l1] at boundary. 
+Constraints of type SimpleGaussianConstraint: 15
+Median for expected limits: 671
+Sigma  for expected limits: 342.353
+Constraints of type SimpleGaussianConstraint: 15
+Constraints of type SimpleGaussianConstraint: 15
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -0.724966 (r = 7.11435e-05)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -1.46292 (r = 0.00646712)
+At r = 5570.605573:	q_mu = 41.90898	q_A  = 43.22746	CLsb = 0.00000	CLb  = 0.54024	CLs  = 0.00000
+At r = 2785.302822:	q_mu = 21.14347	q_A  = 22.96658	CLsb = 0.00000	CLb  = 0.57697	CLs  = 0.00000
+At r = 1392.651446:	q_mu = 8.91985	q_A  = 10.80305	CLsb = 0.00141	CLb  = 0.61798	CLs  = 0.00228
+At r = 696.325759:	q_mu = 3.14944	q_A  = 4.06773	CLsb = 0.03798	CLb  = 0.59569	CLs  = 0.06375
+At r = 1044.488603:	q_mu = 5.87924	q_A  = 7.37368	CLsb = 0.00766	CLb  = 0.61437	CLs  = 0.01247
+At r = 870.407181:	q_mu = 4.45112	q_A  = 5.68866	CLsb = 0.01744	CLb  = 0.60847	CLs  = 0.02866
+At r = 773.469604:	q_mu = 3.70656	q_A  = 4.77479	CLsb = 0.02710	CLb  = 0.60252	CLs  = 0.04498
+At r = 739.310462:	q_mu = 3.45555	q_A  = 4.45915	CLsb = 0.03152	CLb  = 0.59977	CLs  = 0.05255
+At r = 754.884077:	q_mu = 3.56918	q_A  = 4.60258	CLsb = 0.02943	CLb  = 0.60108	CLs  = 0.04896
+At r = 748.079979:	q_mu = 3.51936	q_A  = 4.53982	CLsb = 0.03033	CLb  = 0.60052	CLs  = 0.05050
+At r = 751.200348:	q_mu = 3.54217	q_A  = 4.56858	CLsb = 0.02991	CLb  = 0.60078	CLs  = 0.04979
+
+ -- Asymptotic -- 
+Observed Limit: r < 751.2003
+Expected  2.5%: r < 325.0156
+Expected 16.0%: r < 450.7053
+Expected 50.0%: r < 671.0000
+Expected 84.0%: r < 1048.1235
+Expected 97.5%: r < 1629.5431
+
+Done in 1.17 min (cpu), 1.17 min (real)

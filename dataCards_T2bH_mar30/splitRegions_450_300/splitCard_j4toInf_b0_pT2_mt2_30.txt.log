@@ -1,0 +1,40 @@
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Adding discrete pdfindex_j4toInf_b0_pT2_mt2_30_13TeV
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [env_pdf_23_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_23_13TeV_lau1_l1] at boundary. 
+Constraints of type SimpleGaussianConstraint: 14
+Median for expected limits: 29.9062
+Sigma  for expected limits: 15.2586
+Constraints of type SimpleGaussianConstraint: 14
+Constraints of type SimpleGaussianConstraint: 14
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -0.184885 (r = 2.80479)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -0.343628 (r = 0.000487089)
+At r = 33.256518:	q_mu = 3.50295	q_A  = 4.43620	CLsb = 0.03063	CLb  = 0.59274	CLs  = 0.05167
+At r = 66.513035:	q_mu = 9.07476	q_A  = 10.43116	CLsb = 0.00130	CLb  = 0.58601	CLs  = 0.00221
+At r = 34.658913:	q_mu = 3.73125	q_A  = 4.68870	CLsb = 0.02670	CLb  = 0.59239	CLs  = 0.04507
+At r = 18.731852:	q_mu = 1.31228	q_A  = 1.93806	CLsb = 0.12599	CLb  = 0.59739	CLs  = 0.21090
+At r = 26.695382:	q_mu = 2.46452	q_A  = 3.27338	CLsb = 0.05822	CLb  = 0.59459	CLs  = 0.09792
+At r = 32.214604:	q_mu = 3.33454	q_A  = 4.24930	CLsb = 0.03392	CLb  = 0.59302	CLs  = 0.05720
+At r = 33.318735:	q_mu = 3.51304	q_A  = 4.44738	CLsb = 0.03044	CLb  = 0.59273	CLs  = 0.05136
+At r = 33.807441:	q_mu = 3.59243	q_A  = 4.53527	CLsb = 0.02902	CLb  = 0.59260	CLs  = 0.04897
+At r = 33.539366:	q_mu = 3.54885	q_A  = 4.48704	CLsb = 0.02979	CLb  = 0.59267	CLs  = 0.05027
+At r = 33.637100:	q_mu = 3.56473	q_A  = 4.50462	CLsb = 0.02951	CLb  = 0.59265	CLs  = 0.04979
+
+ -- Asymptotic -- 
+Observed Limit: r < 33.6371
+Expected  2.5%: r < 13.3760
+Expected 16.0%: r < 19.1229
+Expected 50.0%: r < 29.9062
+Expected 84.0%: r < 49.6947
+Expected 97.5%: r < 81.5958
+
+Done in 0.08 min (cpu), 0.08 min (real)

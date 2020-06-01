@@ -1,0 +1,552 @@
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Adding discrete pdfindex_j1to3_b0_pT0_mt2_0_13TeV
+Adding discrete pdfindex_j1to3_b0_pT1_mt2_0_13TeV
+Adding discrete pdfindex_j1to3_b0_pT2_mt2_0_13TeV
+Adding discrete pdfindex_j4toInf_b0_pT0_mt2_0_13TeV
+Adding discrete pdfindex_j4toInf_b0_pT1_mt2_0_13TeV
+Adding discrete pdfindex_j4toInf_b0_pT2_mt2_0_13TeV
+Adding discrete pdfindex_j1to3_b1_pT0_mt2_0_13TeV
+Adding discrete pdfindex_j1to3_b1_pT1_mt2_0_13TeV
+Adding discrete pdfindex_j1to3_b1_pT2_mt2_0_13TeV
+Adding discrete pdfindex_j4toInf_b1_pT0_mt2_0_13TeV
+Adding discrete pdfindex_j4toInf_b1_pT1_mt2_0_13TeV
+Adding discrete pdfindex_j4toInf_b1_pT2_mt2_0_13TeV
+Adding discrete pdfindex_j1to3_b2toInf_pT0_mt2_0_13TeV
+Adding discrete pdfindex_j1to3_b2toInf_pT1_mt2_0_13TeV
+Adding discrete pdfindex_j1to3_b2toInf_pT2_mt2_0_13TeV
+Adding discrete pdfindex_j4toInf_b2toInf_pT0_mt2_0_13TeV
+Adding discrete pdfindex_j4toInf_b2toInf_pT1_mt2_0_13TeV
+Adding discrete pdfindex_j4toInf_b2toInf_pT2_mt2_0_13TeV
+Adding discrete pdfindex_j1to3_b0_pT0_mt2_30_13TeV
+Adding discrete pdfindex_j1to3_b0_pT1_mt2_30_13TeV
+Adding discrete pdfindex_j1to3_b0_pT2_mt2_30_13TeV
+Adding discrete pdfindex_j4toInf_b0_pT0_mt2_30_13TeV
+Adding discrete pdfindex_j4toInf_b0_pT1_mt2_30_13TeV
+Adding discrete pdfindex_j4toInf_b0_pT2_mt2_30_13TeV
+Adding discrete pdfindex_j1to3_b1_pT0_mt2_30_13TeV
+Adding discrete pdfindex_j1to3_b1_pT1_mt2_30_13TeV
+Adding discrete pdfindex_j1to3_b1_pT2_mt2_30_13TeV
+Adding discrete pdfindex_j4toInf_b1_pT0_mt2_30_13TeV
+Adding discrete pdfindex_j4toInf_b1_pT1_mt2_30_13TeV
+Adding discrete pdfindex_j4toInf_b1_pT2_mt2_30_13TeV
+Adding discrete pdfindex_j1to3_b2toInf_pT0_mt2_30_13TeV
+Adding discrete pdfindex_j1to3_b2toInf_pT1_mt2_30_13TeV
+Adding discrete pdfindex_j1to3_b2toInf_pT2_mt2_30_13TeV
+Adding discrete pdfindex_j4toInf_b2toInf_pT0_mt2_30_13TeV
+Adding discrete pdfindex_j4toInf_b2toInf_pT1_mt2_30_13TeV
+Adding discrete pdfindex_j4toInf_b2toInf_pT2_mt2_30_13TeV
+Adding discrete pdfindex_is1El_pT0_mt2_0_13TeV
+Adding discrete pdfindex_is1Mu_pT0_mt2_0_13TeV
+Adding discrete pdfindex_is1El_pT0_mt2_30_13TeV
+Adding discrete pdfindex_is1Mu_pT0_mt2_30_13TeV
+Adding discrete pdfindex_is1El_pT1_mt2_0_13TeV
+Adding discrete pdfindex_is1Mu_pT1_mt2_0_13TeV
+Adding discrete pdfindex_is1El_pT1_mt2_30_13TeV
+Adding discrete pdfindex_is1Mu_pT1_mt2_30_13TeV
+Adding discrete pdfindex_is1El_pT2_mt2_0_13TeV
+Adding discrete pdfindex_is1Mu_pT2_mt2_0_13TeV
+Adding discrete pdfindex_is1El_pT2_mt2_30_13TeV
+Adding discrete pdfindex_is1Mu_pT2_mt2_30_13TeV
+Adding discrete pdfindex_diBBZ_pT0_mt2_0_13TeV
+Adding discrete pdfindex_diBBZ_pT1_mt2_0_13TeV
+Adding discrete pdfindex_diBBZ_pT2_mt2_0_13TeV
+Adding discrete pdfindex_diBBH_pT0_mt2_0_13TeV
+Adding discrete pdfindex_diBBH_pT1_mt2_0_13TeV
+Adding discrete pdfindex_diBBH_pT2_mt2_0_13TeV
+Adding discrete pdfindex_diBBZ_pT0_mt2_30_13TeV
+Adding discrete pdfindex_diBBZ_pT1_mt2_30_13TeV
+Adding discrete pdfindex_diBBZ_pT2_mt2_30_13TeV
+Adding discrete pdfindex_diBBH_pT0_mt2_30_13TeV
+Adding discrete pdfindex_diBBH_pT1_mt2_30_13TeV
+Adding discrete pdfindex_diBBH_pT2_mt2_30_13TeV
+Adding discrete pdfindex_diLepZ_13TeV
+Adding discrete pdfindex_j0_b0toInf_pT0_13TeV
+Adding discrete pdfindex_j0_b0toInf_pT1_13TeV
+Adding discrete pdfindex_j0_b0toInf_pT2_13TeV
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+[#0] ERROR:Eval -- RooAbsReal::logEvalError(hggpdfsmrel_13TeV_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV) evaluation error, 
+ origin       : RooAddPdf::hggpdfsmrel_13TeV_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV[ frac_g0_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV * gaus_g0_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV + hggpdfsmrel_13TeV_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV_recursive_fraction_gaus_g1_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV * gaus_g1_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV + hggpdfsmrel_13TeV_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV_recursive_fraction_gaus_g2_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV * gaus_g2_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV + hggpdfsmrel_13TeV_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV_recursive_fraction_gaus_g3_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV * gaus_g3_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV ]
+ message      : p.d.f value is less than zero (-0.000000), forcing value to zero
+ server values: !refCoefNorm=(), !refCoefNorm=(), !pdfs=(gaus_g0_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV = 3.68546e-131,gaus_g1_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV = 8.60432e-97,gaus_g2_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV = 5.96814e-06,gaus_g3_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV = 0), !coefficients=(frac_g0_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV = 0.839126,hggpdfsmrel_13TeV_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV_recursive_fraction_gaus_g1_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV = 0.166744,hggpdfsmrel_13TeV_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV_recursive_fraction_gaus_g2_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV = -0.000164491,hggpdfsmrel_13TeV_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV_recursive_fraction_gaus_g3_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV = -0.00570583)
+[#0] ERROR:Eval -- RooAbsReal::logEvalError(hggpdfsmrel_13TeV_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV) evaluation error, 
+ origin       : RooAddPdf::hggpdfsmrel_13TeV_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV[ frac_g0_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV * gaus_g0_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV + hggpdfsmrel_13TeV_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV_recursive_fraction_gaus_g1_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV * gaus_g1_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV + hggpdfsmrel_13TeV_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV_recursive_fraction_gaus_g2_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV * gaus_g2_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV + hggpdfsmrel_13TeV_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV_recursive_fraction_gaus_g3_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV * gaus_g3_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV ]
+ message      : p.d.f value is less than zero (-0.000000), forcing value to zero
+ server values: !refCoefNorm=(), !refCoefNorm=(), !pdfs=(gaus_g0_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV = 3.68546e-131,gaus_g1_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV = 8.60432e-97,gaus_g2_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV = 5.96814e-06,gaus_g3_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV = 0), !coefficients=(frac_g0_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV = 0.839126,hggpdfsmrel_13TeV_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV_recursive_fraction_gaus_g1_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV = 0.166744,hggpdfsmrel_13TeV_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV_recursive_fraction_gaus_g2_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV = -0.000164491,hggpdfsmrel_13TeV_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV_recursive_fraction_gaus_g3_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV = -0.00570583)
+  [WARNING] Found [env_pdf_0_13TeV_exp3_f1] at boundary. 
+  [WARNING] Found [env_pdf_0_13TeV_exp3_p1] at boundary. 
+  [WARNING] Found [env_pdf_0_13TeV_exp3_p2] at boundary. 
+  [WARNING] Found [env_pdf_0_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_1_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_1_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_1_13TeV_pow1_p1] at boundary. 
+  [WARNING] Found [env_pdf_2_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_2_13TeV_exp3_f1] at boundary. 
+  [WARNING] Found [env_pdf_2_13TeV_exp3_p1] at boundary. 
+  [WARNING] Found [env_pdf_2_13TeV_exp3_p2] at boundary. 
+  [WARNING] Found [env_pdf_2_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_3_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_3_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_3_13TeV_lau2_h1] at boundary. 
+  [WARNING] Found [env_pdf_3_13TeV_lau2_l1] at boundary. 
+  [WARNING] Found [env_pdf_4_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_4_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_4_13TeV_lau2_h1] at boundary. 
+  [WARNING] Found [env_pdf_4_13TeV_lau2_l1] at boundary. 
+  [WARNING] Found [env_pdf_4_13TeV_pow1_p1] at boundary. 
+  [WARNING] Found [env_pdf_5_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_5_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_6_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_7_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_7_13TeV_exp3_f1] at boundary. 
+  [WARNING] Found [env_pdf_7_13TeV_exp3_p1] at boundary. 
+  [WARNING] Found [env_pdf_7_13TeV_exp3_p2] at boundary. 
+  [WARNING] Found [env_pdf_7_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_8_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_8_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_8_13TeV_pow1_p1] at boundary. 
+  [WARNING] Found [env_pdf_9_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_9_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_10_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_10_13TeV_lau2_h1] at boundary. 
+  [WARNING] Found [env_pdf_10_13TeV_lau2_l1] at boundary. 
+  [WARNING] Found [env_pdf_11_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_11_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_12_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_12_13TeV_exp3_f1] at boundary. 
+  [WARNING] Found [env_pdf_12_13TeV_exp3_p1] at boundary. 
+  [WARNING] Found [env_pdf_12_13TeV_exp3_p2] at boundary. 
+  [WARNING] Found [env_pdf_13_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_14_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_14_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_15_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_15_13TeV_exp3_p1] at boundary. 
+  [WARNING] Found [env_pdf_15_13TeV_exp3_p2] at boundary. 
+  [WARNING] Found [env_pdf_15_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_15_13TeV_lau2_h1] at boundary. 
+  [WARNING] Found [env_pdf_15_13TeV_lau2_l1] at boundary. 
+  [WARNING] Found [env_pdf_16_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_16_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_17_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_17_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_18_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_18_13TeV_exp3_f1] at boundary. 
+  [WARNING] Found [env_pdf_18_13TeV_exp3_p1] at boundary. 
+  [WARNING] Found [env_pdf_18_13TeV_exp3_p2] at boundary. 
+  [WARNING] Found [env_pdf_18_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_19_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_19_13TeV_exp3_f1] at boundary. 
+  [WARNING] Found [env_pdf_19_13TeV_exp3_p1] at boundary. 
+  [WARNING] Found [env_pdf_19_13TeV_exp3_p2] at boundary. 
+  [WARNING] Found [env_pdf_19_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_20_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_20_13TeV_pow1_p1] at boundary. 
+  [WARNING] Found [env_pdf_21_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_21_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_22_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_23_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_23_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_24_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_25_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_25_13TeV_exp3_f1] at boundary. 
+  [WARNING] Found [env_pdf_25_13TeV_exp3_p1] at boundary. 
+  [WARNING] Found [env_pdf_25_13TeV_exp3_p2] at boundary. 
+  [WARNING] Found [env_pdf_25_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_26_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_26_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_27_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_27_13TeV_lau2_h1] at boundary. 
+  [WARNING] Found [env_pdf_27_13TeV_lau2_l1] at boundary. 
+  [WARNING] Found [env_pdf_28_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_28_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_28_13TeV_lau2_h1] at boundary. 
+  [WARNING] Found [env_pdf_28_13TeV_lau2_l1] at boundary. 
+  [WARNING] Found [env_pdf_29_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_29_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_30_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_30_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_31_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_31_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_32_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_32_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_33_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_34_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_34_13TeV_exp3_p2] at boundary. 
+  [WARNING] Found [env_pdf_34_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_34_13TeV_lau2_h1] at boundary. 
+  [WARNING] Found [env_pdf_34_13TeV_lau2_l1] at boundary. 
+  [WARNING] Found [env_pdf_34_13TeV_pow1_p1] at boundary. 
+  [WARNING] Found [env_pdf_35_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_35_13TeV_pow1_p1] at boundary. 
+  [WARNING] Found [env_pdf_36_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_37_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_37_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_38_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_38_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_38_13TeV_lau2_h1] at boundary. 
+  [WARNING] Found [env_pdf_38_13TeV_lau2_l1] at boundary. 
+  [WARNING] Found [env_pdf_38_13TeV_pow1_p1] at boundary. 
+  [WARNING] Found [env_pdf_39_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_40_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_40_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_41_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_41_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_41_13TeV_lau2_h1] at boundary. 
+  [WARNING] Found [env_pdf_41_13TeV_lau2_l1] at boundary. 
+  [WARNING] Found [env_pdf_41_13TeV_pow1_p1] at boundary. 
+  [WARNING] Found [env_pdf_42_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_42_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_42_13TeV_pow1_p1] at boundary. 
+  [WARNING] Found [env_pdf_43_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_44_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_44_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_45_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_45_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_46_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_46_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_47_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_48_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_48_13TeV_exp3_f1] at boundary. 
+  [WARNING] Found [env_pdf_48_13TeV_exp3_p1] at boundary. 
+  [WARNING] Found [env_pdf_48_13TeV_exp3_p2] at boundary. 
+  [WARNING] Found [env_pdf_48_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_49_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_49_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_49_13TeV_pow1_p1] at boundary. 
+  [WARNING] Found [env_pdf_50_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_50_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_51_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_51_13TeV_exp3_f1] at boundary. 
+  [WARNING] Found [env_pdf_51_13TeV_exp3_p1] at boundary. 
+  [WARNING] Found [env_pdf_51_13TeV_exp3_p2] at boundary. 
+  [WARNING] Found [env_pdf_52_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_52_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_53_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_53_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_54_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_55_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_55_13TeV_pow1_p1] at boundary. 
+  [WARNING] Found [env_pdf_56_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_56_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_57_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_57_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_57_13TeV_lau2_h1] at boundary. 
+  [WARNING] Found [env_pdf_57_13TeV_lau2_l1] at boundary. 
+  [WARNING] Found [env_pdf_58_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_59_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_60_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_60_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_60_13TeV_pow1_p1] at boundary. 
+  [WARNING] Found [env_pdf_61_13TeV_exp3_p1] at boundary. 
+  [WARNING] Found [env_pdf_61_13TeV_exp3_p2] at boundary. 
+  [WARNING] Found [env_pdf_61_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_61_13TeV_pow1_p1] at boundary. 
+  [WARNING] Found [env_pdf_62_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_62_13TeV_exp3_p1] at boundary. 
+  [WARNING] Found [env_pdf_62_13TeV_exp3_p2] at boundary. 
+  [WARNING] Found [env_pdf_62_13TeV_lau1_l1] at boundary. 
+  [WARNING] Found [env_pdf_62_13TeV_pow1_p1] at boundary. 
+  [WARNING] Found [env_pdf_63_13TeV_exp1_p1] at boundary. 
+  [WARNING] Found [env_pdf_63_13TeV_exp3_f1] at boundary. 
+  [WARNING] Found [env_pdf_63_13TeV_exp3_p1] at boundary. 
+  [WARNING] Found [env_pdf_63_13TeV_exp3_p2] at boundary. 
+  [WARNING] Found [env_pdf_63_13TeV_lau1_l1] at boundary. 
+[#0] ERROR:Eval -- RooAbsReal::logEvalError(hggpdfsmrel_13TeV_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV) evaluation error, 
+ origin       : RooAddPdf::hggpdfsmrel_13TeV_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV[ frac_g0_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV * gaus_g0_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV + hggpdfsmrel_13TeV_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV_recursive_fraction_gaus_g1_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV * gaus_g1_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV + hggpdfsmrel_13TeV_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV_recursive_fraction_gaus_g2_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV * gaus_g2_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV + hggpdfsmrel_13TeV_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV_recursive_fraction_gaus_g3_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV * gaus_g3_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV ]
+ message      : p.d.f value is less than zero (-0.000000), forcing value to zero
+ server values: !refCoefNorm=(), !pdfs=(gaus_g0_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV = 0/2.28698,gaus_g1_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV = 0/3.02883,gaus_g2_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV = 7.77712e-44/10.2751,gaus_g3_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV = 0/1.22197), !coefficients=(frac_g0_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV = 0.839126,hggpdfsmrel_13TeV_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV_recursive_fraction_gaus_g1_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV = 0.166745,hggpdfsmrel_13TeV_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV_recursive_fraction_gaus_g2_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV = -0.000164513,hggpdfsmrel_13TeV_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV_recursive_fraction_gaus_g3_SMS_T2bH_mSbottom700_mLSP250_is1El_pT2_mt2_0_rv_13TeV = -0.00570661)
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=100.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=100.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=100.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=100.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=101.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=101.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=101.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=101.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=102.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=102.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=102.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=102.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=103.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=103.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=103.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=103.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=104.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=104.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=104.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=104.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=105.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=105.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=105.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=105.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=106.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=106.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=106.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=106.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=107.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=107.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=107.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=107.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=108.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=108.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=108.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=108.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=109.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=109.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=109.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=109.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=110.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=110.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=110.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=110.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=111.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=111.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=111.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=111.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=112.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=112.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=112.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=112.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=113.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=113.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=113.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=113.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=114.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=114.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=114.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=114.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=115.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=115.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=115.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=115.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=116.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=116.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=116.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=116.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=117.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=117.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=117.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=117.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=118.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=118.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=118.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=118.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=119.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=119.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=119.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=119.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=120.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=133.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=133.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=133.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=134.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=134.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=134.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=134.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=135.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=135.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=135.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=135.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=136.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=136.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=136.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=136.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=137.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=137.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=137.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=137.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=138.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=138.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=138.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=138.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=139.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=139.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=139.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=139.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=140.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=140.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=140.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=140.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=141.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=141.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=141.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=141.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=142.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=142.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=142.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=142.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=143.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=143.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=143.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=143.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=144.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=144.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=144.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=144.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=145.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=145.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=145.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=145.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=146.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=146.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=146.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=146.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=147.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=147.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=147.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=147.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=148.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=148.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=148.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=148.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=149.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=149.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=149.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=149.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=150.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=150.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=150.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=150.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=151.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=151.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=151.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=151.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=152.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=152.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=152.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=152.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=153.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=153.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=153.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=153.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=154.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=154.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=154.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=154.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=155.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=155.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=155.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=155.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=156.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=156.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=156.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=156.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=157.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=157.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=157.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=157.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=158.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=158.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=158.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=158.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=159.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=159.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=159.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=159.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=160.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=160.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=160.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=160.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=161.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=161.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=161.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=161.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=162.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=162.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=162.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=162.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=163.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=163.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=163.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=163.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=164.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=164.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=164.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=164.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=165.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=165.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=165.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=165.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=166.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=166.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=166.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=166.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=167.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=167.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=167.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=167.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=168.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=168.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=168.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=168.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=169.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=169.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=169.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=169.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=170.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=170.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=170.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=170.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=171.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=171.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=171.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=171.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=172.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=172.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=172.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=172.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=173.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=173.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=173.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=173.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=174.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=174.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=174.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=174.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=175.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=175.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=175.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=175.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=176.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=176.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=176.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=176.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=177.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=177.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=177.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=177.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=178.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=178.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=178.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=178.875
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=179.125
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=179.375
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=179.625
+[#0] WARNING:Plotting -- WARNING: Function evaluation error(s) at coordinates [x]=179.875
+Constraints of type SimpleGaussianConstraint: 15
+Median for expected limits: 4.54688
+Sigma  for expected limits: 2.31988
+Constraints of type SimpleGaussianConstraint: 15
+Constraints of type SimpleGaussianConstraint: 15
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -17.92 (r = 1.92845)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -16.5684 (r = 0.0807328)
+At r = 6.581143:	q_mu = 3.07779	q_A  = 7.03429	CLsb = 0.03968	CLb  = 0.81537	CLs  = 0.04867
+At r = 6.526288:	q_mu = 3.01686	q_A  = 6.94242	CLsb = 0.04120	CLb  = 0.81539	CLs  = 0.05053
+At r = 6.549594:	q_mu = 3.04270	q_A  = 6.98141	CLsb = 0.04055	CLb  = 0.81538	CLs  = 0.04973
+
+ -- Asymptotic -- 
+Observed Limit: r < 6.5496
+Expected  2.5%: r < 2.2823
+Expected 16.0%: r < 3.1227
+Expected 50.0%: r < 4.5469
+Expected 84.0%: r < 6.8124
+Expected 97.5%: r < 9.9632
+
+Done in 546.14 min (cpu), 546.21 min (real)
